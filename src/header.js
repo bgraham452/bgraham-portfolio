@@ -9,7 +9,7 @@ class Header extends Component {
     render(){
         return (
             <header role="banner" id ="top" className="App-header">
-            <h1 className="App-title"> <span className ="name"><u>Brandon Graham<br /></u></span> <span className="job-title">Junior Full-Stack Developer</span> </h1>
+            <h1 className="App-title"> <span className ="name"><u>Brandon Graham<br /></u></span> <span className="job-title">Full-Stack Developer</span> </h1>
             
             <Router>
             <nav className="navbar">

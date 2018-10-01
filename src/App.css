@@ -22,6 +22,7 @@ h3{
 font-size: 15px;
 }
 h4{
+  display: inline;
   font-family: 'Satisfy', cursive;
 font-size: 12px;
 }
@@ -123,7 +124,7 @@ padding-bottom: 30px;
   float: left;
   margin-top: 10px;
 }
-.skillbar-title span{
+.skillbar-title{
   font-size: 11px;
 }
 .project-description, .project2-description{
@@ -979,6 +980,7 @@ p.contact-sub-text{
     position: relative;
     top: 5px;
     font-size: 30px;
+    height: 10px;
     left: 9%;
   }
   .skill-bars {

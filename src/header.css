@@ -1,0 +1,156 @@
+
+@font-face {
+    font-family: Code Light;
+    src: url('./fonts/CODE\ Light.otf');
+}
+
+@font-face {
+    font-family: Code Bold;
+    src: url('./fonts/CODE\ Bold.otf');
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+/* Elements */
+
+h1{
+    font-family: Code Light;
+    font-size: 20px;
+
+}
+
+a:link{
+    color: #0EB1D2;
+    text-decoration: none;
+    }
+    
+    a:hover{
+        color: #BDBF09;
+    }
+    
+    a:visited{
+        color: #34E4EA;
+    
+    }
+
+    nav{
+width: 100%;
+    }
+
+    nav > a {
+        background-color: #0F0A0A;
+        border: 1px solid gray;
+        /* margin: 10px; */
+        padding: 20px;
+        display: block;
+    }
+
+    ul{
+        list-style-type: none;
+    }
+    
+/* classes */
+
+.App-header {
+    width: 100%;
+    background-color: #F5EFED;
+    overflow: hidden;
+  }
+
+  .App-title {
+    color: #0F0A0A;
+  }
+
+  .name{
+    font-size: 40px;
+    font-family: 'Satisfy', cursive;
+    -webkit-text-stroke: .1px black;
+color: #34E4EA;
+  }
+  
+  
+
+ .blue
+  {
+      color: #34E4EA;
+  }
+
+
+/* S5 */
+@media all and (min-width: 321px) and (max-width: 360px) {
+
+}
+/* iPad */
+@media all and (min-width: 737px) and (max-width: 768px) {
+
+.name{
+    font-size: 60px;
+    font-family: 'Satisfy', cursive;
+    -webkit-text-stroke: .1px black;
+color: #34E4EA;
+  }
+  .job-title{
+      font-size: 25px;
+  }
+}
+ /* iPad landscape */
+ @media all and (orientation: landscape) and (min-width: 824px) and (max-width: 1024px)  {
+    .name{
+        font-size: 60px;
+      
+      }
+      .job-title{
+          font-size: 25px;
+      }
+}
+/* iPad Pro  */
+@media all and (min-width: 824px) and (max-width: 1024px)  {
+    .name{
+        font-size: 75px;
+     
+      }
+      .job-title{
+          font-size: 30px;
+      }
+}
+/*  Desktop */
+@media all and (min-width: 1025px) and (max-width: 1280px) {
+    .name{
+        font-size: 75px;
+     
+      }
+      .job-title{
+          font-size: 30px;
+      }
+      .navbar{
+        font-size: 25px;
+    }
+}
+/* iPad Pro landscape */
+@media all and (min-width: 1281px) and (orientation: landscape) {
+    .name{
+        font-size: 85px;
+     
+      }
+      .job-title{
+          font-size: 35px;
+      }
+      .navbar{
+          font-size: 25px;
+      }
+}
+
+@media screen and (min-width: 1280px){
+    nav{
+display: flex;
+justify-content: center;
+    }
+ 
+    nav > a {
+       
+        margin: 10px;
+        padding: 10px;
+        display: block;
+    }
+}

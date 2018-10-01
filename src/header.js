@@ -1,0 +1,30 @@
+import React, {Component} from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
+import {HashRouter as Router} from 'react-router-dom';
+
+import './header.css';
+
+class Header extends Component {
+
+    render(){
+        return (
+            <header role="banner" id ="top" className="App-header">
+            <h1 className="App-title"> <span className ="name"><u>Brandon Graham<br /></u></span> <span className="job-title">Junior Full-Stack Developer</span> </h1>
+            
+            <Router>
+            <nav className="navbar">
+        <Link to ={{hash: "#top"}} >Home</Link>  
+        <Link to ={{hash: "#about"}}>About</Link>
+        <Link to ={{hash: "#projects"}} >Projects</Link>
+        {/* <Link to ={{hash: "#photos"}} >Photos</Link>  */}
+        <Link to ={{hash: "#contact"}}>Contact</Link>
+        </nav>
+        </Router>
+
+            
+          </header>
+        )
+    }
+}
+
+export default Header;

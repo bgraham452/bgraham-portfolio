@@ -12,6 +12,10 @@ class Projects extends Component {
             {type: "MongoDB", level: 20},
     
           ];
+          const project2Skills = [
+            {type: "React-Native", level: 100}
+          ];
+
           const colors = {
             "bar": "#34E4EA",
             "title": {
@@ -26,7 +30,7 @@ class Projects extends Component {
           <li>
               <h3><u className="project-title">LowerReact's Fantasy Football Rankings App</u></h3>
               <p className="project-description">
-              <img src={require('./images/FFRankingsApp.png')} className="project-shot-1" alt="1st about"/>
+              <img src={require('./images/FFRankingsApp.png')} className="project-shot-1" alt="Fantasy Football Rankings Website"/>
               
               Love Fantasy Football? Need a guide to draft with? Then this is the app for you! Introudcing LowerReact's Fantasy Football Draft App!<br /><br />
 
@@ -40,18 +44,20 @@ This app is a comprehensive list of players in the NFL ranked in order to give y
 <SkillBar skills={project1Skills} colors={colors} />
 </div>
         </li>
-        {/* <li>
-              <h3>LowerReact's Fantasy Football Rankings App</h3>
-              <p>
-              <img src={require('./images/about1.jpg')} className="project-shot-1" alt="1st about"/>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.</p>  
-        </li>
         <li>
-              <h3>LowerReact's Fantasy Football Rankings App</h3>
-              <p>
-              <img src={require('./images/about1.jpg')} className="project-shot-1" alt="1st about"/>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.</p>  
-        </li> */}
+              <h3><u className="project-title">Dream's Destination Travel App</u></h3>
+              <p className="project2-description">
+              <img src={require('./images/DD-Home.png')} className="project-shot-2" alt="Dreams Destination Travel App"/>
+              
+              Looking for the travel destination of your dreams? This is the app for you! <br /><br /> Not only does it provide popular destinations at reasonable prices, but we put the Dreams Destinations touch on every trip. We help find events in that area and provide Dreams Destination packages complete with gifts and souvenirs so you don't forget your magical vacation!  <br /><br /> We even organize events in certain locations where you and your friends can join other travelers for drinks, partying, sightseeing, and more!  <br /><br />
+<a href="https://github.com/thinkful-ei22/BG-Dreams-Destination-React-Native" className="project2-link">View GitHub Repo</a><br />
+
+</p>  
+<h4 className="skill-title">Skills Used:</h4>
+<div className="skill-bars">
+<SkillBar skills={project2Skills} colors={colors} />
+</div>
+        </li>
         </ul>
 
           </section>

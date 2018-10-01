@@ -289,8 +289,7 @@ p.contact-sub-text{
   }
   .contact-signature {
     position: relative;
-    right: 32%;
-    margin-top: 35px;
+    margin-top: 5px;
   }
 }
 /* iphone 5/SE landscape */

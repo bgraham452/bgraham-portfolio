@@ -291,6 +291,9 @@ p.contact-sub-text{
     position: relative;
     margin-top: 5px;
   }
+  .project-links, .project2-link{
+    font-size: 15px;
+  }
 }
 /* iphone 5/SE landscape */
 @media all and (min-width: 412px) and (max-width: 568px) and (orientation: landscape) {

@@ -49,7 +49,7 @@ This app is a comprehensive list of players in the NFL ranked in order to give y
               <p className="project2-description">
               <img src={require('./images/DD-Home.png')} className="project-shot-2" alt="Dreams Destination Travel App"/>
               
-              Looking for the travel destination of your dreams? This is the app for you! <br /><br /> Not only does it provide popular destinations at reasonable prices, but we put the Dreams Destinations touch on every trip. We help find events in that area and provide Dreams Destination packages complete with gifts and souvenirs so you don't forget your magical vacation!  <br /><br /> We even organize events in certain locations where you and your friends can join other travelers for drinks, partying, sightseeing, and more!  <br /><br />
+              <br />Looking for the travel destination of your dreams? This is the app for you! <br /><br /> Not only does it provide popular destinations at reasonable prices, but we put the Dreams Destinations touch on every trip. We help find events in that area and provide Dreams Destination packages complete with gifts and souvenirs so you don't forget your magical vacation!  <br /><br /> We even organize events in certain locations where you and your friends can join other travelers for drinks, partying, sightseeing, and more!  <br /><br />
 <a href="https://github.com/thinkful-ei22/BG-Dreams-Destination-React-Native" className="project2-link">View GitHub Repo</a><br />
 
 </p>  

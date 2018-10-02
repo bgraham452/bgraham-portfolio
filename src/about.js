@@ -10,34 +10,11 @@ class About extends Component {
           <h2 className="about-title">About Me</h2>
           <div className="about-info">
           <p className="about-text">
-          If you look up "Brandon Graham" on Google, Twitter, Facebook,  or anywhere else you look people up, you'll find out that the name is VERY common. <br /><br />
-          
-          There are radio hosts with that name, and my current favorite football player (who plays on my hometown Eagles) has my exact name. <br /><br />           
+          I firmly feel that I know what makes me want to wake up in the morning, what genuinely excites me, and what entices me to push boundaries and test my limits. <br /><br /> My goal is to work my way to the top of the web development industry, then become a leader in the video game industry. <br /><br />
+          I am a Full-Stack Web Developer and Graphic Designer.<br /><br /> I aspire to be a Website Developer, Computer Programmer, Video Game Designer, CEO, Philanthropist, Surfer, and a positive influence on the lives of others.<br /><br /> If you have a vision that you feel like I can help you with, then I would be both excited and honored to help you pursue your dream. Because aiding someone's dream with my skills will help me achieve my own goals.
 
 
-          In a world where there are more Brandon Graham's than I can count, my great friends blessed me with a stage name that has stood since: <b>Dutch Norris</b>. <br /><br />
-          
 
-          Who is Dutch Norris? <br /><br />
-        
-          The Black Chuck Norris?<br /><br />
-          
-           Dutch Norris is I and I am him. <br /><br />
-          I am an artist, using whatever medium I can get my hands on. <br /><br />
-          With my passions in: <br /><br />
-
-             
-- tech (full-stack web development)<br /><br />
-
-- visual art (drawing, photography, & graphic design)<br /><br />
-
-- music (check my SoundCloud)<br /><br />
-
-
-          If I can create on/with it I will. <br /><br />
-          Now that you're here check out my work!  <br /><br />
-          View my galleries, visit the websites I've made! <br /><br />
-          And once you see the quality of work I hold as my standard, feel free to contact me so I can work with/for you! 
 
           </p>
 

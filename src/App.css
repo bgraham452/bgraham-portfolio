@@ -9,6 +9,7 @@
 }
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 
+@import url('https://fonts.googleapis.com/css?family=K2D');
 
 
 /* Elements */
@@ -27,8 +28,9 @@ h4{
 font-size: 12px;
 }
 p{
-  
-  font-size: 10px;
+  font-family: 'K2D', sans-serif;
+
+  font-size: 9px;
 }
 form{
   width: 100%;
@@ -64,11 +66,13 @@ label{
   border-bottom: 1px solid #0F0A0A;
 
 }
+.about-title{
+  margin-bottom: 0;
+}
 .about-info{
-  font-family: Code Light;
-  font-size: 10px;
+  
   /* border: 1px solid red; */
-  width: 96%;
+  width: 90%;
   display: flex;
   justify-content: center;
   margin-left: 5px;
@@ -82,27 +86,24 @@ p.about-text{
 
 }
 .about-photo-list{
-  width: 50%;
+  width: 33%;
   /* border: 1px solid red; */
   flex-direction: column;
   padding: 0;
-  padding-top: 50px;
-
+  margin-top: 5px;
+  }
+  .about-photo-list >li {
+    width: 100%;
   }
 
-.about-img-1{
+.about-img-1, .about-img-2, .about-img-3{
   width:100%;
   /* border: 1px solid red; */
-padding-bottom: 30px;
 
 }
-.about-img-2{
-  width: 100%;
-  padding-bottom: 30px;
+.about-img-1, .about-img-2{
+  padding-bottom: 20px;
 
-}
-.about-img-3{
-  width: 100%;
 }
 
 
@@ -116,19 +117,19 @@ padding-bottom: 30px;
   width:80%;
 }
 .project-shot-1{
-  width: 50%;
-  float: left;
+  width: 100%;
 }
 .project-shot-2{
-  width: 28%;
-  float: left;
-  margin-top: 10px;
+  width: 50%;
 }
-.skillbar-title{
+.skillbar-title > span{
   font-size: 11px;
+  
 }
 .project-description, .project2-description{
   float: right;
+  font-family: 'K2D', sans-serif;
+  margin-top:0; 
 }
 .contact-container{
   padding-bottom: 15px;
@@ -159,7 +160,7 @@ p.contact-sub-text{
   width: 100%;
 }
 .contact-message{
-  width: 100%;
+  width: 75%;
   padding-bottom: 10px;
 
 }
@@ -194,896 +195,808 @@ p.contact-sub-text{
 }
 /* S5 */
 @media all and (min-width: 321px) and (max-width: 360px) {
-  .about-photo-list{
-    padding-top: 0;
-    }
+  h2{
+    font-size: 22px;
+   }
+h3{
+  font-size: 17px;  
+}
+  h4{
+    font-size: 14px;
+  }
+  p{  
+    font-size: 11px;
+  }
+  .about-info{
  
-  p.contact-sub-text{
-    position: relative;
-    left: 17%;
+    margin-left: 14px;
+  
   }
-  .contact-signature {
-    position: relative;
-    right: 32%;
-    margin-top: 29px;
-  }
+  .about-photo-list{
+    width: 40%;
+    margin-top: 25px;
+    }
 }
 /* iPhone 6/7/8 */
 
 @media all and (min-width: 361px) and (max-width: 375px){
-  p.about-text{
-    font-size: 11px;
+  h2{
+    font-size: 24px;
+   }
+h3{
+  font-size: 19px;  
+}
+  h4{
+    font-size: 16px;
+  }
+  
+  p{
+    font-size: 13px;
+      }
+      .about-info{
+ 
+        margin-left: 14px;
+      
       }
       .about-photo-list{
-        padding-top: 32px;
+        width: 47%;
+        padding-top: 47px;
         }
-        .project-shot-2{
-          width: 30%;
-          margin-top: 10px;
-        }
-      p.contact-sub-text{
-        position: relative;
-        left: 17%;
-      }
-      .contact-signature {
-        position: relative;
-        right: 32%;
-        margin-top: 29px;
-      }
-      
- 
 }
  /* iPhone X */
  @media only screen and (min-width: 361px) and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 3){
-  p.about-text{
-    font-size: 11px;
+  h2{
+    font-size: 24px;
+   }
+h3{
+  font-size: 19px;  
+}
+  h4{
+    font-size: 16px;
+  }
+  
+  p{
+    font-size: 13px;
+      }
+      .about-info{
+ 
+        margin-left: 14px;
+      
       }
       .about-photo-list{
-        padding-top: 32px;
+        width: 47%;
+        padding-top: 47px;
         }
-      p.contact-sub-text{
-        position: relative;
-        left: 17%;
-      }
-      .contact-signature {
-        position: relative;
-        right: 32%;
-        margin-top: 29px;
-      }
  }
 /* Pixel 2 */
 
 @media all and (min-width: 376px) and (max-width: 411px) {
-  p.about-text{
-    font-size: 11px;
+  h2{
+    font-size: 26px;
+   }
+h3{
+  font-size: 21px;  
+}
+  h4{
+    font-size: 18px;
+  }
+  
+  p{
+    font-size: 15px;
+      }
+      .about-info{
+ 
+        margin-left: 20px;
+      
       }
       .about-photo-list{
-        padding-top: 0px;
+        width: 57%;
+        padding-top: 70px;
         }
-        .project-shot-2{
-          width: 30%;
-          margin-top: 0;
-        }
-  p.contact-sub-text{
-    position: relative;
-    left: 15%;
-    font-size: 12px;
-  }
-  .contact-signature {
-    position: relative;
-    right: 35%;
-    margin-top: 36px;
-  }
 }
 /* iPhone 6/7/8 Plus */
 
 @media all and (min-width: 412px) and (max-width: 414px) {
-  p.about-text{
-    font-size: 11px;
+  h2{
+    font-size: 26px;
+   }
+h3{
+  font-size: 21px;  
+}
+  h4{
+    font-size: 18px;
+  }
+  
+  p{
+    font-size: 15px;
+      }
+      .about-info{
+ 
+        margin-left: 20px;
+      
       }
       .about-photo-list{
-        padding-top: 0px;
+        width: 57%;
+        padding-top: 70px;
         }
-  p.contact-sub-text{
-    position: relative;
-    font-size: 13px;
-  }
-  .contact-signature {
-    position: relative;
-    margin-top: 5px;
-  }
-  .project-links, .project2-link{
-    font-size: 15px;
-  }
 }
 /* iphone 5/SE landscape */
 @media all and (min-width: 412px) and (max-width: 568px) and (orientation: landscape) {
-  p.about-text{
+  h2{
+    font-size: 26px;
+   }
+h3{
+  font-size: 21px;  
+}
+  h4{
+    font-size: 18px;
+  }
+  
+  p{
     font-size: 15px;
       }
+      .about-info{
+ 
+        margin-left: 20px;
+      
+      }
       .about-photo-list{
-        position: relative;
-        bottom: 62px;
+        width: 30%;
+        padding-top: 40px;
         }
 
         .project-title{
-          position: relative;
-          left: 3.5%;
-        }
-        .project-shot-2{
-          position: relative;
-          bottom: 50px;
-        }
-        .project2-description{
-          font-size: 12px;
-        }
-        .project-links{
-          position: relative;
-          left: 3%;
-        }
-        .skill-title{
-          position: relative;
-          top: 5px;
-          font-size: 15px;
-          left: 3%;
+          margin-left:35px;
         }
         .skill-bars {
-          margin-top: 5px;
+          margin-top: 12px;
+          margin-left: 30px;
           }
   p.contact-sub-text{
     position: relative;
-    font-size: 13px;
-    left: 11.5%;
+    left: 16%;
+    height: 30px;
   }
   .contact-signature {
     position: relative;
     right: 32%;
-    margin-top: 29px;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  .submit{
+    width: 26%;
+    height: 25px;
   }
 }
 /* S5 landscape */
 @media all and (min-width: 569px) and (max-width: 640px) and (orientation: landscape) {
-  p.about-text{
-    font-size: 16px;
+  h2{
+    font-size: 28px;
+   }
+h3{
+  font-size: 23px;  
+}
+  h4{
+    font-size: 20px;
+  }
+  
+  p{
+    font-size: 17px;
+      }
+      .about-info{
+ 
+        margin-left: 20px;
+      
       }
       .about-photo-list{
-        position: relative;
-        bottom: 62px;
+        width: 30%;
+        padding-top: 40px;
         }
-        .project-title{
-          position: relative;
-          left: 4.5%;
+        .project-list{
+          width: 88%;
         }
+       
+        .skill-bars {
+          margin-top: 12px;
+          
+          }
   p.contact-sub-text{
     position: relative;
-    font-size: 13px;
-    left: 11.5%;
-  }
-  .project-shot-2{
-    position: relative;
-    bottom: 50px;
-  }
-  .project2-description{
-    font-size: 13px;
+    left: 15%;
+    height: 30px;
   }
   .contact-signature {
     position: relative;
     right: 32%;
-    margin-top: 29px;
+    margin-top: 50px;
+    margin-bottom: 0;
   }
-  .project-links{
-    position: relative;
-    left: 4%;
+  .submit{
+    width: 26%;
+    height: 25px;
   }
-  .skill-title{
-    position: relative;
-    top: 5px;
-    font-size: 15px;
-    left: 4%;
-  }
-  .skill-bars {
-    margin-top: 2px;
-    }
 }
 
 /* iPhone 6/7/8 landscape */
 @media all and (min-width: 641px) and (max-width: 667px) and (orientation: landscape) {
-  p.about-text{
-    font-size: 16px;
+  h2{
+    font-size: 28px;
+   }
+h3{
+  font-size: 25px;  
+}
+  h4{
+    font-size: 22px;
+  }
+  
+  p{
+    font-size: 17px;
       }
-  .about-photo-list{
-        position: relative;
-        bottom: 62px;
+      .about-info{
+ 
+        margin-left: 20px;
+      
+      }
+      .about-photo-list{
+        width: 30%;
+        padding-top: 33px;
         }
-  .project-title{
-          position: relative;
-          left: 4.5%;
+        .project-list{
+          width: 88%;
         }
-        .project-description{
-          font-size: 11px;
-        }
-        .project-shot-2{
-          position: relative;
-          bottom: 30px;
-          right: 15%;
-        }
-        .project2-description{
-          margin-left: 100px;
-          font-size: 12px;
-        }
-        .project-links{
-          position: relative;
-          left: 5%;
-        }
-        .skill-title{
-          position: relative;
-          top: 5px;
-          font-size: 15px;
-          left: 5%;
-        }
+       
+        .skill-bars {
+          margin-top: 12px;
+          
+          }
   p.contact-sub-text{
     position: relative;
-    font-size: 13px;
-    left: 11.5%;
+    left: 16%;
+    height: 30px;
   }
   .contact-signature {
     position: relative;
     right: 32%;
-    margin-top: 29px;
+    margin-top: 50px;
+    margin-bottom: 0;
   }
-  .skill-title{
-    position: relative;
-    top: 5px;
-    font-size: 15px;
-  }
-  .skill-bars {
-    margin-top: 5px;
-  
+  .submit{
+    width: 26%;
+    height: 25px;
   }
 }
 /* Pixel 2 landscape */
 @media all and (min-width: 668px) and (max-width: 731px) and (orientation: landscape) {
-  p.about-text{
-    font-size: 16px;
+  h2{
+    font-size: 30px;
+   }
+h3{
+  font-size: 27px;  
+}
+  h4{
+    font-size: 24px;
+  }
+  
+  p{
+    font-size: 19px;
+      }
+      .about-info{
+ 
+        margin-left: 20px;
+      
       }
       .about-photo-list{
-        position: relative;
-        bottom: 62px;
+        width: 30%;
+        padding-top: 48px;
         }
+        .project-list{
+          width: 88%;
+        }
+       
+        .skill-bars {
+          margin-top: 12px;
+          
+          }
   p.contact-sub-text{
     position: relative;
-    font-size: 13px;
-    left: 8%;
-  }
-  .project-title{
-    position: relative;
-    left: 5.5%;
-  }
-  .project-description{
-    font-size: 12px;
-  }
-  .project-shot-2{
-    position: relative;
-    bottom: 30px;
-    right: 14%;
-  }
-  .project2-description{
-    margin-left: 100px;
-    font-size: 12px;
-  }
-  .project-links{
-    position: relative;
-    left: 6%;
-  }
-  .skill-title{
-    position: relative;
-    top: 5px;
-    font-size: 15px;
-    left: 6%;
+    left: 16%;
+    height: 30px;
   }
   .contact-signature {
     position: relative;
-    right: 33.5%;
-    margin-top: 29px;
+    right: 32%;
+    margin-top: 50px;
+    margin-bottom: 0;
   }
-  .skill-title{
-    position: relative;
-    top: 5px;
-    font-size: 15px;
+  .submit{
+    width: 26%;
+    height: 25px;
   }
-  .skill-bars {
-    margin-top: 5px;
-    }
 }
 /* iPhone 6/7/8 Plus landscape */
 @media all and (min-width: 732px) and (max-width: 736px) and (orientation: landscape) {
-  p.about-text{
-    font-size: 18px;
+  h2{
+    font-size: 30px;
+   }
+h3{
+  font-size: 27px;  
+}
+  h4{
+    font-size: 24px;
+  }
+  
+  p{
+    font-size: 19px;
+      }
+      .about-info{
+ 
+        margin-left: 20px;
+      
       }
       .about-photo-list{
-        position: relative;
-        bottom: 62px;
+        width: 30%;
+        padding-top: 48px;
         }
+        .project-list{
+          width: 88%;
+        }
+       
+        .skill-bars {
+          margin-top: 12px;
+          
+          }
   p.contact-sub-text{
     position: relative;
-    font-size: 13px;
-    left: 8%;
-  }
-  .project-title{
-    position: relative;
-    left: 5.5%;
-    font-size: 15px;
-  }
-  .project-description{
-    font-size: 12px;
-  }
-  .project-shot-2{
-    position: relative;
-    bottom: 30px;
-    right: 12%;
-  }
-  .project2-description{
-    margin-left: 100px;
-    font-size: 12px;
-  }
-  .project-links{
-    position: relative;
-    left: 7%;
-  }
-  .skill-title{
-    position: relative;
-    top: 5px;
-    font-size: 15px;
-    left: 7%;
+    left: 16%;
+    height: 30px;
   }
   .contact-signature {
     position: relative;
-    right: 33.5%;
-    margin-top: 29px;
+    right: 32%;
+    margin-top: 50px;
+    margin-bottom: 0;
   }
-  .skill-title{
-    position: relative;
-    top: 5px;
-    font-size: 15px;
+  .submit{
+    width: 26%;
+    height: 25px;
   }
-  .skill-bars {
-    margin-top: 5px;
-    position: relative;
-    left: 6%;
-    }
 }
 
 /* iPad */
 @media all and (min-width: 737px) and (max-width: 768px) {
   h2{
+    font-size: 40px;
+   }
+h3{
+  font-size: 35px;  
+}
+  h4{
     font-size: 30px;
-    
-    }
-  p.about-text{
-    font-size: 20px;
+  }
+  
+  p{
+    font-size: 26px;
+      }
+      .about-info{
+ 
+        margin-left: 30px;
+      
       }
       .about-photo-list{
-        position: relative;
-        bottom: 62px;
+        width: 50%;
+        padding-top: 100px;
         }
-        
+        .project-list{
+          width: 88%;
+        }
+       
+        .skill-bars {
+          margin-top: 12px;
+          
+          }
   p.contact-sub-text{
     position: relative;
-    font-size: 20px;
-    left: 10%;
-    margin-top: 0;
-  }
-  .contact-container{
-    height: 400px;
-  }
-  .project-title{
-    position: relative;
-    left: 5.5%;
-    font-size: 20px;
-  }
-  .project-description{
-    font-size: 16px;
-  }
-  .project-shot-2{
-    position: relative;
-    bottom: 30px;
-    right: 12%;
-  }
-  .project2-description{
-    margin-left: 100px;
-    font-size: 16px;
-  }
-  .project-links{
-    position: relative;
-    left: 7%;
-  }
-  .skill-title{
-    position: relative;
-    top: 5px;
-    font-size: 15px;
-    left: 7%;
+    height: 80px;
   }
   .contact-signature {
-    position: relative;
-    right: 33.5%;
-    margin-top: 60px;
-    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+  label{
     font-size: 20px;
   }
-  .skill-title{
-    position: relative;
-    top: 5px;
-    font-size: 20px;
+  input{
+    height: 25px;
   }
-  .skill-bars {
-    margin-top: 6px;
-    position: relative;
-    left: 5%;
-    }
-    .contact-box{
-      position: relative;
-      bottom: 30px;
-    }
+  .submit{
+    width: 26%;
+    height: 40px;
+    font-size: 15px;
+  }
 }
     /* iPhone X landscape */
     @media all and (min-width: 769px) and (max-width: 812px) and (orientation: landscape) {
-      p.about-text{
-        font-size: 20px;
+      h2{
+        font-size: 40px;
+       }
+    h3{
+      font-size: 35px;  
+    }
+      h4{
+        font-size: 30px;
+      }
+      
+      p{
+        font-size: 26px;
+          }
+          .about-info{
+     
+            margin-left: 30px;
+          
           }
           .about-photo-list{
-            position: relative;
-            bottom: 62px;
+            width: 50%;
+            padding-top: 60px;
             }
-            
+            .project-list{
+              width: 88%;
+            }
+           
+            .skill-bars {
+              margin-top: 12px;
+              
+              }
       p.contact-sub-text{
         position: relative;
-        font-size: 20px;
-        left: 10%;
-        margin-top: 0;
-      }
-      .contact-container{
-        height: 400px;
-      }
-      .project-title{
-        position: relative;
-        left: 5.5%;
-        font-size: 20px;
-      }
-      .project-description{
-        font-size: 14px;
-      }
-      .project-links{
-        position: relative;
-        left: 7%;
-      }
-      .project-shot-2{
-        position: relative;
-        bottom: 30px;
-        right: 10%;
-      }
-      .project2-description{
-        margin-left: 100px;
-        font-size: 14px;
-      }
-      .project-links{
-        position: relative;
-        left: 6%;
-      }
-      .skill-title{
-        position: relative;
-        top: 5px;
-        font-size: 15px;
-        left: 6%;
+        height: 50px;
       }
       .contact-signature {
-        position: relative;
-        right: 32%;
-        margin-top: 60px;
-        padding-bottom: 10px;
+        margin-bottom: 0;
+      }
+      label{
         font-size: 20px;
       }
-      .skill-title{
-        position: relative;
-        top: 5px;
-        left: 7%;
-        font-size: 20px;
+      input{
+        height: 25px;
       }
-      .skill-bars {
-        margin-top: 6px;
-        position: relative;
-        left: 5%;
-        }
-        .contact-box{
-          position: relative;
-          bottom: 30px;
-        }
+      .submit{
+        width: 26%;
+        height: 40px;
+        font-size: 15px;
+      }
     }
 
     /* Pixel 2 XL landscape */
 @media all and (min-width: 813px) and (max-width: 823px) and (orientation: landscape) {
-  p.about-text{
-    font-size: 20px;
+  h2{
+    font-size: 40px;
+   }
+h3{
+  font-size: 35px;  
+}
+  h4{
+    font-size: 30px;
+  }
+  
+  p{
+    font-size: 26px;
+      }
+      .about-info{
+ 
+        margin-left: 30px;
+      
       }
       .about-photo-list{
-        position: relative;
-        bottom: 62px;
+        width: 50%;
+        padding-top: 60px;
         }
-        
+        .project-list{
+          width: 88%;
+        }
+       
+        .skill-bars {
+          margin-top: 12px;
+          
+          }
   p.contact-sub-text{
     position: relative;
-    font-size: 20px;
-    left: 10%;
-    margin-top: 0;
-  }
-  .contact-container{
-    height: 400px;
-  }
-  .project-title{
-    position: relative;
-    left: 5.5%;
-    font-size: 20px;
-  }
-  .project-description{
-    font-size: 14px;
-  }
-  .project-links{
-    position: relative;
-    left: 7%;
-  }
-  .project-shot-2{
-    position: relative;
-    bottom: 30px;
-    right: 10%;
-  }
-  .project2-description{
-    margin-left: 100px;
-    font-size: 14px;
+    height: 50px;
   }
   .contact-signature {
-    position: relative;
-    right: 33.5%;
-    margin-top: 60px;
-    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+  label{
     font-size: 20px;
   }
-  .skill-title{
-    position: relative;
-    top: 1px;
-    left: 7%;
-    font-size: 20px;
+  input{
+    height: 25px;
   }
-  .skill-bars {
-    margin-top: 1px;
-    position: relative;
-    left: 5%;
-    }
-    .contact-box{
-      position: relative;
-      bottom: 30px;
-    }
+  .submit{
+    width: 26%;
+    height: 40px;
+    font-size: 15px;
+  }
 }
  /* iPad landscape */
  @media all and (orientation: landscape) and (min-width: 824px) and (max-width: 1024px)  {
   h2{
-    font-size: 25px;
-    
-    }
-  p.about-text{
-    font-size: 25px;
+    font-size: 40px;
+   }
+h3{
+  font-size: 35px;  
+}
+  h4{
+    font-size: 30px;
+  }
+  
+  p{
+    font-size: 26px;
+      }
+      .profile{
+        width: 100%;
+        max-width: 1024px;
+        margin-top: 20px;
+        margin-bottom: 0;
+      
+      }
+      .about-info{
+ 
+        margin-left: 30px;
+      
       }
       .about-photo-list{
-        position: relative;
-        bottom: 62px;
+        width: 30%;
+        padding-top: 60px;
         }
-        
+        .project-list{
+          width: 88%;
+        }
+       
+        .skill-bars {
+          margin-top: 12px;
+          
+          }
   p.contact-sub-text{
     position: relative;
-    font-size: 20px;
-    left: 9%;
-    margin-top: 0;
-  }
-  .contact-container{
-    height: 400px;
-  }
-  .project-title{
-    position: relative;
-    left: 8%;
-    font-size: 25px;
-  }
-  .project-description{
-    font-size: 17px;
-  }
-  .project-shot-2{
-    position: relative;
-    bottom: 30px;
-    right: 6%;
-  }
-  .project2-description{
-    margin-left: 100px;
-    font-size: 17px;
-  }
-  .project-links{
-    position: relative;
-    left: 8%;
-  }
-  .skill-title{
-    position: relative;
-    top: 5px;
-    font-size: 15px;
-    left: 8%;
+    height: 50px;
   }
   .contact-signature {
-    position: relative;
-    right: 33.5%;
-    margin-top: 60px;
-    padding-bottom: 10px;
-    font-size: 23px;
+    margin-bottom: 0;
   }
-  .project-links{
-    position: relative;
-    left: 5%;
-  }
-  .skill-title{
-    position: relative;
-    top: 5px;
-    left: 5%;
+  label{
     font-size: 20px;
   }
-  .skill-bars {
-    margin-top: 5px;
-    position: relative;
-    left: 5%;
-    }
-    .contact-box{
-      position: relative;
-      bottom: 30px;
-    }
+  input{
+    height: 25px;
+  }
+  .submit{
+    width: 26%;
+    height: 40px;
+    font-size: 15px;
+  }
 }
 /* iPad Pro  */
 @media all and (min-width: 824px) and (max-width: 1024px)  {
   h2{
+    font-size: 40px;
+    margin-bottom:0;  
+
+   }
+h3{
+  font-size: 35px;
+  margin-top:0;  
+}
+  h4{
     font-size: 30px;
-    
-    }
-  p.about-text{
+  }
+  
+  p{
     font-size: 26px;
       }
+      .profile{
+        width: 100%;
+        max-width: 1024px;
+        margin-top: 20px;
+        margin-bottom: 0;
+      
+      }
+      .about-info{
+ 
+        margin-left: 30px;
+      
+      }
       .about-photo-list{
-        position: relative;
-        bottom: 62px;
+        width: 30%;
+        padding-top: 60px;
         }
-        
+        .project-list{
+          width: 88%;
+        }
+        .project-title{
+          margin-left: 45px;
+        }
+       
+        .skill-bars {
+          margin-top: 12px;
+          position: relative;
+          left: 3%;
+          }
   p.contact-sub-text{
     position: relative;
-    font-size: 26px;
-    left: 10.5%;
-    margin-top: 0;
-  }
-  .contact-container{
-    height: 400px;
-  }
-  .project-title{
-    position: relative;
-    left: 8%;
-    font-size: 30px;
-  }
-  .project-description{
-    font-size: 17px;
-  }
-  .project-shot-2{
-    position: relative;
-    bottom: 30px;
-    right: 6%;
-  }
-  .project2-description{
-    margin-left: 100px;
-    font-size: 17px;
+    height: 50px;
+    margin-left: 40px;
+    margin-bottom: 15px;
   }
   .contact-signature {
-    position: relative;
-    right: 33.5%;
-    margin-top: 60px;
-    padding-bottom: 10px;
-    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: 33px;
   }
-  .skill-title{
-    position: relative;
-    top: 1px;
-    font-size: 30px;
-    left: 8%;
+  label{
+    font-size: 20px;
   }
-  .project-links{
-    position: relative;
-    left: 8%;
+  input{
+    height: 25px;
   }
-  .skill-bars {
-    margin-top: 1px;
-    position: relative;
-    left: 5%;
-    }
-    .contact-box{
-      position: relative;
-      bottom: 30px;
-    }
-    label{
-      font-size: 20px;
-    }
+  textarea{
+    height: 75px;
+  }
+  .submit{
+    width: 26%;
+    height: 40px;
+    font-size: 15px;
+  }
 }
 /* Desktop */
 @media all and (min-width: 1025px) and (max-width: 1280px) {
-  .profile-image{
-    padding-top: 40px;
-    padding-bottom: 40px;
-  border-bottom: 1px solid #0F0A0A;
-  width: 60%;
-  position: relative;
-  left: 20%;
-  }
   h2{
-    font-size: 30px;
-    
-    }
-  p.about-text{
-    font-size: 24px;
-    margin-left: 20px;
-    margin-right: 20px;
-    position: relative;
-    left: 5%;
+    font-size: 40px;
+    margin-bottom:0;  
+
+   }
+h3{
+  font-size: 38px;
+  margin-top:0;  
+}
+  h4{
+    font-size: 34px;
+  }
+  
+  p{
+    font-size: 28px;
+      }
+      .profile{
+        width: 100%;
+        max-width: 1280px;
+        margin-top: 20px;
+        margin-bottom: 0;
+      
+      }
+      .about-info{
+ 
+        margin-left: 30px;
+      
       }
       .about-photo-list{
-        position: relative;
-        bottom: 62px;
+        width: 25%;
+        padding-top: 60px;
         }
-        .about-img-1,.about-img-2,.about-img-3{
-          width: 66%;
+        .project-list{
+          width: 88%;
+          margin-left: 40px;
         }
-        
+        .project-shot-1{
+          width: 50%;
+          float: left;
+        }
+        .project-shot-2{
+          float: left;
+          width: 25%;
+        }
+      
+        .skill-bars {
+          margin-top: 12px;
+          position: relative;
+          }
   p.contact-sub-text{
     position: relative;
-    font-size: 26px;
-    left: 8%;
-    margin-top: 0;
-  }
-  .contact-container{
-    height: 400px;
-  }
-  .project-title{
-    position: relative;
-    left: 8%;
-    font-size: 30px;
-  }
-  .project-description{
-    font-size: 21px;
-  }
-  .project-links{
-    position: relative;
-    left: 9%;
-  }
-  .project-shot-2{
-    position: relative;
-    bottom: 50px;
-    right: 3%;
-  }
-  .project2-description{
-    margin-left: 100px;
-    font-size: 21px;
+    height: 50px;
+    margin-left: 65px;
+    margin-bottom: 15px;
   }
   .contact-signature {
-    position: relative;
-    right: 33%;
-    top: 10px;
-    margin-top: 60px;
-    padding-bottom: 10px;
-    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: 65px;
   }
-  .skill-title{
-    position: relative;
-    top: 5px;
-    font-size: 30px;
-    height: 10px;
-    left: 9%;
+  label{
+    font-size: 20px;
   }
-  .skill-bars {
-    margin-top: 5px;
-    position: relative;
-    left: 8%;
-    }
-    .contact-box{
-      position: relative;
-      bottom: 30px;
-    }
-    label{
-      font-size: 20px;
-    }
+  input{
+    height: 25px;
+  }
+  textarea{
+    height: 75px;
+  }
+  .submit{
+    width: 26%;
+    height: 40px;
+    font-size: 15px;
+  }
 }
 /* iPad Pro landscape */
 @media all and (min-width: 1281px) and (orientation: landscape) {
-  .profile-image{
-    padding-top: 40px;
-    padding-bottom: 40px;
-  border-bottom: 1px solid #0F0A0A;
-  width: 60%;
-  position: relative;
-  left: 20%;
-  }
   h2{
+    font-size: 42px;
+    margin-bottom:0;  
+
+   }
+h3{
+  font-size: 40px;
+  margin-top:0;  
+}
+  h4{
+    font-size: 36px;
+  }
+  
+  p{
     font-size: 30px;
-    
-    }
-  p.about-text{
-    font-size: 26px;
-    margin-left: 20px;
-    margin-right: 20px;
-    position: relative;
-    left: 5%;
+      }
+      .profile{
+        width: 100%;
+        max-width: 1366px;
+        margin-top: 20px;
+        margin-bottom: 0;
+      
+      }
+      .about-info{
+ 
+        margin-left: 30px;
+      
       }
       .about-photo-list{
-        position: relative;
-        bottom: 62px;
+        width: 25%;
+        padding-top: 25px;
         }
-        .about-img-1,.about-img-2,.about-img-3{
-          width: 66%;
+        .project-list{
+          width: 88%;
+          margin-left: 40px;
         }
-        
+        .project-shot-1{
+          width: 50%;
+          float: left;
+        }
+        .project-shot-2{
+          float: left;
+          width: 25%;
+        }
+      
+        .skill-bars {
+          margin-top: 12px;
+          position: relative;
+          }
+          .skillbar-title{
+            font-size: 20px;
+          }
   p.contact-sub-text{
     position: relative;
-    font-size: 26px;
-    left: 8%;
-    margin-top: 0;
-  }
-  .contact-container{
-    height: 400px;
-  }
-  .project-title{
-    position: relative;
-    left: 8%;
-    font-size: 30px;
-  }
-  .project-description{
-    font-size: 23px;
-  }
-  .project-links{
-    position: relative;
-    left: 9%;
-  }
-  .project-shot-2{
-    position: relative;
-    bottom: 30px;
-    right: 3%;
-  }
-  .project2-description{
-    margin-left: 100px;
-    font-size: 23px;
-  }
-  .project2-link{
-    position: relative;
-    right: 1%;
+    height: 50px;
+    margin-left: 50px;
+    margin-bottom: 15px;
   }
   .contact-signature {
-    position: relative;
-    right: 33%;
-    top: 10px;
-    margin-top: 60px;
-    padding-bottom: 10px;
-    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: 89px;
   }
-  .skill-title{
-    position: relative;
-    top: 10px;
-    font-size: 30px;
-    left: 9%;
+  label{
+    font-size: 20px;
   }
-  .skill-bars {
-    margin-top: 30px;
-    position: relative;
-    left: 8%;
-    }
- 
-    .contact-box{
-      position: relative;
-      bottom: 30px;
-    }
-    label{
-      font-size: 20px;
-    }
+  input{
+    height: 25px;
+  }
+  textarea{
+    height: 75px;
+  }
+  .submit{
+    width: 26%;
+    height: 40px;
+    font-size: 15px;
+  }
 }

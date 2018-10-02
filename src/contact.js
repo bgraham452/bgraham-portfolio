@@ -11,7 +11,7 @@ class Contact extends Component {
           <section className="contact-container" id="contact">
           <h2 className="contact-title">Contact</h2>
           
-          <p className="contact-sub-text">Let's talk about work, sports, video games, music, and whatever excites you!!</p>
+          <p className="contact-sub-text">Let's talk about work, sports, video games, music, and whatever excites you!!<br /></p>
           <h3 className ="contact-signature">Let's Connect & Work!</h3>
 
  <form className="contact-box">

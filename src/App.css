@@ -996,7 +996,7 @@ h3{
   }
 }
 /* iPhone 6/7/8 Plus landscape */
-@media all and (min-width: 732px) and (max-width: 737px) and (orientation: landscape) {
+@media all and (min-width: 732px) and (max-width: 736px) and (orientation: landscape) {
   h2{
     font-size: 30px;
    }
@@ -1089,7 +1089,7 @@ h3{
 }
 
 /* iPad */
-@media all and (min-width: 738px) and (max-width: 768px) {
+@media all and (min-width: 737px) and (max-width: 768px) {
   h2{
     font-size: 40px;
    }

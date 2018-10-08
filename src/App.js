@@ -4,6 +4,8 @@ import Header from './header';
 import ProfileImg from './profile-img'
 import About from './about';
 import Projects from './projects';
+import Artwork from './artwork';
+import Photography from './photography';
 import Contact from './contact';
 import ScrollUpButton from "react-scroll-up-button"; //Add this line Here
 
@@ -15,6 +17,8 @@ class App extends Component {
         <ProfileImg />
         <About />
         <Projects />
+        <Artwork />
+        <Photography />
         <Contact />
         <ScrollUpButton />
       </div>

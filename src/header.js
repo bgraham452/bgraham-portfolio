@@ -15,8 +15,9 @@ class Header extends Component {
             <nav className="navbar">
         <Link to ={{hash: "#top"}} >Home</Link>  
         <Link to ={{hash: "#about"}}>About</Link>
-        <Link to ={{hash: "#projects"}} >Projects</Link>
-        {/* <Link to ={{hash: "#photos"}} >Photos</Link>  */}
+        <Link to ={{hash: "#projects"}}>Projects</Link>
+        <Link to ={{hash: "#artwork"}}>Artwork</Link> 
+        <Link to ={{hash: "#photography"}}>Photography</Link> 
         <Link to ={{hash: "#contact"}}>Contact</Link>
         </nav>
         </Router>

@@ -24,15 +24,15 @@ a:link{
     color: #0EB1D2;
     text-decoration: none;
     }
-    
-    a:hover{
-        color: #BDBF09;
-    }
-    
     a:visited{
         color: #34E4EA;
     
     }
+    a:hover{
+        color: #BDBF09;
+    }
+    
+  
 
     nav{
 width: 100%;

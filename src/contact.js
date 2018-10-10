@@ -23,7 +23,7 @@ constructor(props){
           <p className="contact-sub-text">Let's talk about work, sports, video games, music, and whatever excites you!!<br /></p>
           <h3 className ="contact-signature">Let's Connect & Work!</h3>
 
- <Form  action="https://formspree.io/bgraham452@gmail.com"
+ <Form onSubmit={() => console.log()} action="https://formspree.io/bgraham452@gmail.com"
       method="POST" className="contact-box" >
             <div className="contact-name">
             <label htmlFor="name">Your Name: </label>

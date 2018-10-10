@@ -1,9 +1,18 @@
 import React, {Component} from 'react';
-import {Field, reduxForm} from 'redux-form';
-
+import {Form, Field, reduxForm} from 'redux-form';
 import './App.css';
 
 class Contact extends Component {
+constructor(props){
+  super(props)
+    this.state = {
+      name: '',
+      email: '',
+      message: ''
+  }
+}
+
+ 
 
     render(){
 
@@ -14,7 +23,8 @@ class Contact extends Component {
           <p className="contact-sub-text">Let's talk about work, sports, video games, music, and whatever excites you!!<br /></p>
           <h3 className ="contact-signature">Let's Connect & Work!</h3>
 
- <form className="contact-box">
+ <Form  action="https://formspree.io/bgraham452@gmail.com"
+      method="POST" className="contact-box" >
             <div className="contact-name">
             <label htmlFor="name">Your Name: </label>
             <Field component="input" type="text" id="name-input"  name="name" />
@@ -29,11 +39,18 @@ class Contact extends Component {
             <label htmlFor="message">Message<br /></label>
             <Field id="message-input" name="message" component="textarea" />
             </div>
-            <button className="submit">Submit</button>
-        </form>
-          <div className="contact-info">
-          
-          </div>
+            <button className="submit" >Submit</button>
+        </Form>
+        <h3 className="follow-signature">Follow Me Here!</h3>
+          <ul className="social-media-icons">
+          <li><a href="https://github.com/bgraham452"><img src={require('./images/icons/github.png')} className="icon-1" alt="Github Icon" /></a></li>
+          <li><a href="https://www.behance.net/brandonleegraham"><img src={require('./images/icons/behance.png')} className="icon-2" alt="Behance Icon" /></a></li>
+          <li><a href="https://twitter.com/DutchNorris_"><img src={require('./images/icons/twitter.png')} className="icon-4" alt="Twitter Icon" /></a></li>
+          <li><a href="https://www.instagram.com/dutchnorris/"><img src={require('./images/icons/instagram.png')} className="icon-5" alt="Instagram Icon" /></a></li>
+          </ul>
+<br />
+<br />
+<br />
 
           </section>
         )

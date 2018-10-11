@@ -176,14 +176,63 @@ p.about-text{
   margin-top: 15px;
   margin-left: 10.5px;
   }
-  .artphoto-list-1 > li{
+  .artphoto-list-2 > li{
+    margin-bottom: 9px;
+  }
+  .artphoto-list-3 > li{
     margin-bottom: 4px;
   }
-  .artphoto-list-2 > li{
-    margin-bottom: 16px;
+  .artwork-img-1:hover .overlay{
+    opacity: 1;
+
+  }
+  .artwork-img-2:hover .overlay{
+    opacity: 1;
+
+  }
+   .artwork-img-3:hover .overlay {
+    opacity: 1;
+
   }
 .artwork-img-1, .artwork-img-2, .artwork-img-3{
   width: 100%;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+
+
+.overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #34E4EA;
+}
+
+.container:hover .overlay {
+  opacity: .9;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.img-description{
+  margin: 0;
 }
 .contact-container{
   padding-bottom: 15px;
@@ -297,10 +346,10 @@ h3{
       margin-left: 10px;
       }
       .artphoto-list-1 > li{
-        margin-bottom: 5px;
+        margin-bottom: 6.1px;
       }
       .artphoto-list-2> li{
-        margin-bottom: 19px;
+        margin-bottom: 17px;
       }
       
 }
@@ -358,10 +407,10 @@ h3{
           margin-left: 10px;
           }
           .artphoto-list-1 > li{
-            margin-bottom: 5px;
+            margin-bottom: 6.2px;
           }
           .artphoto-list-2> li{
-            margin-bottom: 19px;
+            margin-bottom: 13.5px;
           }
           
             .social-media-icons{
@@ -421,10 +470,10 @@ h3{
           margin-left: 10px;
           }
           .artphoto-list-1 > li{
-            margin-bottom: 4.5px;
+            margin-bottom: 6.2px;
           }
           .artphoto-list-2> li{
-            margin-bottom: 19px;
+            margin-bottom: 13.5px;
           }
             .social-media-icons{
               margin-left: 8vw;
@@ -486,10 +535,10 @@ h3{
           margin-left: 11px;
           }
           .artphoto-list-1 > li{
-            margin-bottom: 5px;
+            margin-bottom: 6.5px;
           }
           .artphoto-list-2> li{
-            margin-bottom: 21px;
+            margin-bottom: 9.5px;
           }
             .social-media-icons{
               margin-left: 10vw;
@@ -550,10 +599,10 @@ h3{
           margin-left: 10px;
           }
           .artphoto-list-1 > li{
-            margin-bottom: 5.5px;
+            margin-bottom: 6.5px;
           }
           .artphoto-list-2> li{
-            margin-bottom: 22px;
+            margin-bottom: 9.6px;
           }
             .social-media-icons{
               margin-left: 10vw;
@@ -617,11 +666,11 @@ h3{
           margin-top: 15px;
           margin-left: 10px;
           }
-          .artphoto-list-1 > li{
-            margin-bottom: 7px;
+          .artphoto-list-2 > li{
+            margin-bottom: 16.5px;
           }
-          .artphoto-list-2> li{
-            margin-bottom: 30px;
+          .artphoto-list-3> li{
+            margin-bottom: 6.5px;
           }
          
   p.contact-sub-text{
@@ -699,11 +748,11 @@ h3{
           margin-top: 15px;
           margin-left: 10px;
           }
-          .artphoto-list-1 > li{
-            margin-bottom: 8px;
+          .artphoto-list-2 > li{
+            margin-bottom: 18.5px;
           }
-          .artphoto-list-2> li{
-            margin-bottom: 34px;
+          .artphoto-list-3> li{
+            margin-bottom: 7px;
           }
           
   p.contact-sub-text{
@@ -782,11 +831,11 @@ h3{
           margin-top: 15px;
           margin-left: 10px;
           }
-          .artphoto-list-1 > li{
-            margin-bottom: 9px;
+          .artphoto-list-2 > li{
+            margin-bottom: 19.5px;
           }
-          .artphoto-list-2> li{
-            margin-bottom: 36px;
+          .artphoto-list-3> li{
+            margin-bottom: 7px;
           }
   p.contact-sub-text{
     position: relative;
@@ -864,11 +913,11 @@ h3{
           margin-top: 15px;
           margin-left: 10px;
           }
-          .artphoto-list-1 > li{
-            margin-bottom: 9.5px;
+          .artphoto-list-2 > li{
+            margin-bottom: 21.5px;
           }
-          .artphoto-list-2> li{
-            margin-bottom: 39.5px;
+          .artphoto-list-3 > li{
+            margin-bottom: 8px;
           }
   p.contact-sub-text{
     position: relative;
@@ -946,11 +995,11 @@ h3{
           margin-top: 15px;
           margin-left: 10px;
           }
-          .artphoto-list-1 > li{
-            margin-bottom: 10px;
+          .artphoto-list-2 > li{
+            margin-bottom: 21.8px;
           }
-          .artphoto-list-2> li{
-            margin-bottom: 40px;
+          .artphoto-list-3 > li{
+            margin-bottom: 8px;
           }
   p.contact-sub-text{
     position: relative;
@@ -1030,10 +1079,21 @@ h3{
           margin-left: 10px;
           }
           .artphoto-list-1 > li{
-            margin-bottom: 10px;
+            margin-bottom: 13px;
           }
           .artphoto-list-2> li{
-            margin-bottom: 41px;
+            margin-bottom: 45px;
+          }
+         
+          
+          .img-description{
+            display: none;
+          }
+          .overlay {
+            display: block;
+          }
+          .overlay-description{
+            font-size: 20px;
           }
   p.contact-sub-text{
     position: relative;
@@ -1114,10 +1174,20 @@ h3{
               margin-left: 10px;
               }
               .artphoto-list-1 > li{
-                margin-bottom: 10.5px;
+                margin-bottom: 14.5px;
               }
               .artphoto-list-2> li{
-                margin-bottom: 44px;
+                margin-bottom: 48px;
+              }
+              .img-description{
+                display: none;
+              }
+              .overlay {
+                display: block;
+                height: 99%;
+              }
+              .overlay-description{
+                font-size: 21px;
               }
       p.contact-sub-text{
         position: relative;
@@ -1199,10 +1269,20 @@ h3{
           margin-left: 10px;
           }
           .artphoto-list-1 > li{
-            margin-bottom: 11px;
+            margin-bottom: 15px;
           }
           .artphoto-list-2> li{
-            margin-bottom: 45px;
+            margin-bottom: 49px;
+          }
+          .img-description{
+            display: none;
+          }
+          .overlay {
+            display: block;
+            height: 99%;
+          }
+          .overlay-description{
+            font-size: 22px;
           }
   p.contact-sub-text{
     position: relative;
@@ -1290,10 +1370,19 @@ h3{
           margin-left: 10px;
           }
           .artphoto-list-1 > li{
-            margin-bottom: 13px;
+            margin-bottom: 17px;
           }
           .artphoto-list-2> li{
-            margin-bottom: 56px;
+            margin-bottom: 60px;
+          }
+          .img-description{
+            display: none;
+          }
+          .overlay {
+            display: block;
+          }
+          .overlay-description{
+            font-size: 25px;
           }
   p.contact-sub-text{
     position: relative;
@@ -1384,10 +1473,19 @@ h3{
           margin-left: 10px;
           }
           .artphoto-list-1 > li{
-            margin-bottom: 13px;
+            margin-bottom: 17px;
           }
           .artphoto-list-2> li{
-            margin-bottom: 56px;
+            margin-bottom: 60px;
+          }
+          .img-description{
+            display: none;
+          }
+          .overlay {
+            display: block;
+          }
+          .overlay-description{
+            font-size: 25px;
           }
   p.contact-sub-text{
     position: relative;
@@ -1484,10 +1582,19 @@ h3{
           margin-left: 10px;
           }
           .artphoto-list-1 > li{
-            margin-bottom: 18px;
+            margin-bottom: 21px;
           }
           .artphoto-list-2> li{
-            margin-bottom: 72px;
+            margin-bottom: 75px;
+          }
+          .img-description{
+            display: none;
+          }
+          .overlay {
+            display: block;
+          }
+          .overlay-description{
+            font-size: 26px;
           }
   p.contact-sub-text{
     position: relative;
@@ -1585,10 +1692,19 @@ h3{
             margin-left: 10px;
             }
             .artphoto-list-1 > li{
-              margin-bottom: 18px;
+              margin-bottom: 22px;
             }
             .artphoto-list-2> li{
-              margin-bottom: 76px;
+              margin-bottom: 80px;
+            }
+            .img-description{
+              display: none;
+            }
+            .overlay {
+              display: block;
+            }
+            .overlay-description{
+              font-size: 26px;
             }
   p.contact-sub-text{
     position: relative;

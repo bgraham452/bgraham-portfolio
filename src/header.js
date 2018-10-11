@@ -16,8 +16,7 @@ class Header extends Component {
         <Link to ={{hash: "#top"}} >Home</Link>  
         <Link to ={{hash: "#about"}}>About</Link>
         <Link to ={{hash: "#projects"}}>Projects</Link>
-        <Link to ={{hash: "#artwork"}}>Artwork</Link> 
-        <Link to ={{hash: "#photography"}}>Photography</Link> 
+        <Link to ={{hash: "#artwork-photography"}}>Artwork/Photography</Link> 
         <Link to ={{hash: "#contact"}}>Contact</Link>
         </nav>
         </Router>

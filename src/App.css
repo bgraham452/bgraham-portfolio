@@ -168,52 +168,21 @@ p.about-text{
   flex-wrap: wrap;
 
 }
-.artwork-list-1, .artwork-list-2, .artwork-list-3{
+.artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
   width: 29%;
   /* border: 1px solid red; */
   flex-direction: column;
   padding: 0;
   margin-top: 15px;
-  margin-left: 10px;
+  margin-left: 10.5px;
   }
-  .artwork-list-1 > li{
-    margin-bottom: 31px;
+  .artphoto-list-1 > li{
+    margin-bottom: 4px;
   }
-  .artwork-list-3 > li{
-    margin-bottom: 37px;
+  .artphoto-list-2 > li{
+    margin-bottom: 16px;
   }
 .artwork-img-1, .artwork-img-2, .artwork-img-3{
-  width: 100%;
-}
-.photography-container{
-  
-  width: 100%;
-  /* border: 1px solid red;  */
-  border-bottom: 1px solid #0F0A0A;
-}
-.photography-title{
-  margin-bottom: 0;
-}
-.photos{
-  display: flex;
-  flex-wrap: wrap;
-
-}
-.photography-list-1, .photography-list-2, .photography-list-3{
-  width: 29%;
-  /* border: 1px solid red; */
-  flex-direction: column;
-  padding: 0;
-  margin-top: 15px;
-  margin-left: 10px;
-  }
-  .photography-list-2 > li{
-    margin-bottom: 15px;
-  }
-  .photography-list-3 > li{
-    margin-bottom: 23px;
-  }
-.photography-img-1, .photography-img-2, .photography-img-3{
   width: 100%;
 }
 .contact-container{
@@ -319,7 +288,7 @@ h3{
     width: 40%;
     margin-top: 25px;
     }
-    .artwork-list-1, .artwork-list-2, .artwork-list-3{
+    .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
       width: 29.7%;
       /* border: 1px solid red; */
       flex-direction: column;
@@ -327,30 +296,13 @@ h3{
       margin-top: 15px;
       margin-left: 10px;
       }
-      .artwork-list-1 > li{
-        margin-bottom: 34px;
+      .artphoto-list-1 > li{
+        margin-bottom: 5px;
       }
-      .artwork-list-3 > li{
-        margin-bottom: 41px;
+      .artphoto-list-2> li{
+        margin-bottom: 19px;
       }
-      .photography-list-1, .photography-list-2, .photography-list-3{
-        width: 29.7%;
-        /* border: 1px solid red; */
-        flex-direction: column;
-        padding: 0;
-        margin-top: 15px;
-        margin-left: 10px;
-        }
-        .photography-list-2 > li{
-          margin-bottom: 18px;
-        }
-        .photography-list-3 > li{
-          margin-bottom: 26px;
-        }
-        .social-media-icons{
-          margin-left: 9vw;
-        }
-     
+      
 }
 /* iPhone 6/7/8 */
 
@@ -397,7 +349,7 @@ h3{
           position: relative;
           right: 0%;
         }
-        .artwork-list-1, .artwork-list-2, .artwork-list-3{
+        .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 29.7%;
           /* border: 1px solid red; */
           flex-direction: column;
@@ -405,26 +357,13 @@ h3{
           margin-top: 15px;
           margin-left: 10px;
           }
-          .artwork-list-1 > li{
-            margin-bottom: 36px;
+          .artphoto-list-1 > li{
+            margin-bottom: 5px;
           }
-          .artwork-list-3 > li{
-            margin-bottom: 44px;
+          .artphoto-list-2> li{
+            margin-bottom: 19px;
           }
-          .photography-list-1, .photography-list-2, .photography-list-3{
-            width: 29.7%;
-            /* border: 1px solid red; */
-            flex-direction: column;
-            padding: 0;
-            margin-top: 15px;
-            margin-left: 10px;
-            }
-            .photography-list-2 > li{
-              margin-bottom: 18px;
-            }
-            .photography-list-3 > li{
-              margin-bottom: 26px;
-            }
+          
             .social-media-icons{
               margin-left: 8vw;
             }
@@ -473,7 +412,7 @@ h3{
           position: relative;
           right: 0%;
         }
-        .artwork-list-1, .artwork-list-2, .artwork-list-3{
+        .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 29.7%;
           /* border: 1px solid red; */
           flex-direction: column;
@@ -481,26 +420,12 @@ h3{
           margin-top: 15px;
           margin-left: 10px;
           }
-          .artwork-list-1 > li{
-            margin-bottom: 36px;
+          .artphoto-list-1 > li{
+            margin-bottom: 4.5px;
           }
-          .artwork-list-3 > li{
-            margin-bottom: 44px;
+          .artphoto-list-2> li{
+            margin-bottom: 19px;
           }
-          .photography-list-1, .photography-list-2, .photography-list-3{
-            width: 29.7%;
-            /* border: 1px solid red; */
-            flex-direction: column;
-            padding: 0;
-            margin-top: 15px;
-            margin-left: 10px;
-            }
-            .photography-list-2 > li{
-              margin-bottom: 18px;
-            }
-            .photography-list-3 > li{
-              margin-bottom: 26px;
-            }
             .social-media-icons{
               margin-left: 8vw;
             }
@@ -552,34 +477,20 @@ h3{
           position: relative;
           right: 0%;
         }
-        .artwork-list-1, .artwork-list-2, .artwork-list-3{
+        .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 29.7%;
           /* border: 1px solid red; */
           flex-direction: column;
           padding: 0;
           margin-top: 15px;
-          margin-left: 10px;
+          margin-left: 11px;
           }
-          .artwork-list-1 > li{
-            margin-bottom: 36px;
+          .artphoto-list-1 > li{
+            margin-bottom: 5px;
           }
-          .artwork-list-3 > li{
-            margin-bottom: 44px;
+          .artphoto-list-2> li{
+            margin-bottom: 21px;
           }
-          .photography-list-1, .photography-list-2, .photography-list-3{
-            width: 29.7%;
-            /* border: 1px solid red; */
-            flex-direction: column;
-            padding: 0;
-            margin-top: 15px;
-            margin-left: 10px;
-            }
-            .photography-list-2 > li{
-              margin-bottom: 18px;
-            }
-            .photography-list-3 > li{
-              margin-bottom: 26px;
-            }
             .social-media-icons{
               margin-left: 10vw;
             }
@@ -630,7 +541,7 @@ h3{
           position: relative;
           right: 0%;
         }
-        .artwork-list-1, .artwork-list-2, .artwork-list-3{
+        .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 30%;
           /* border: 1px solid red; */
           flex-direction: column;
@@ -638,26 +549,12 @@ h3{
           margin-top: 15px;
           margin-left: 10px;
           }
-          .artwork-list-1 > li{
-            margin-bottom: 40px;
+          .artphoto-list-1 > li{
+            margin-bottom: 5.5px;
           }
-          .artwork-list-3 > li{
-            margin-bottom: 49px;
+          .artphoto-list-2> li{
+            margin-bottom: 22px;
           }
-          .photography-list-1, .photography-list-2, .photography-list-3{
-            width: 30%;
-            /* border: 1px solid red; */
-            flex-direction: column;
-            padding: 0;
-            margin-top: 15px;
-            margin-left: 10px;
-            }
-            .photography-list-2 > li{
-              margin-bottom: 21px;
-            }
-            .photography-list-3 > li{
-              margin-bottom: 31px;
-            }
             .social-media-icons{
               margin-left: 10vw;
             }
@@ -712,7 +609,7 @@ h3{
           position: relative;
           left: 3%;
         }
-        .artwork-list-1, .artwork-list-2, .artwork-list-3{
+        .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 31%;
           /* border: 1px solid red; */
           flex-direction: column;
@@ -720,26 +617,13 @@ h3{
           margin-top: 15px;
           margin-left: 10px;
           }
-          .artwork-list-1 > li{
-            margin-bottom: 58px;
+          .artphoto-list-1 > li{
+            margin-bottom: 7px;
           }
-          .artwork-list-3 > li{
-            margin-bottom: 70px;
+          .artphoto-list-2> li{
+            margin-bottom: 30px;
           }
-          .photography-list-1, .photography-list-2, .photography-list-3{
-            width: 31%;
-            /* border: 1px solid red; */
-            flex-direction: column;
-            padding: 0;
-            margin-top: 15px;
-            margin-left: 10px;
-            }
-            .photography-list-2 > li{
-              margin-bottom: 30px;
-            }
-            .photography-list-3 > li{
-              margin-bottom: 44px;
-            }
+         
   p.contact-sub-text{
     position: relative;
     left: 16%;
@@ -807,7 +691,7 @@ h3{
           position: relative;
           left: 5%;
         }
-        .artwork-list-1, .artwork-list-2, .artwork-list-3{
+        .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 31%;
           /* border: 1px solid red; */
           flex-direction: column;
@@ -815,26 +699,13 @@ h3{
           margin-top: 15px;
           margin-left: 10px;
           }
-          .artwork-list-1 > li{
-            margin-bottom: 64px;
+          .artphoto-list-1 > li{
+            margin-bottom: 8px;
           }
-          .artwork-list-3 > li{
-            margin-bottom: 78px;
+          .artphoto-list-2> li{
+            margin-bottom: 34px;
           }
-          .photography-list-1, .photography-list-2, .photography-list-3{
-            width: 31%;
-            /* border: 1px solid red; */
-            flex-direction: column;
-            padding: 0;
-            margin-top: 15px;
-            margin-left: 10px;
-            }
-            .photography-list-2 > li{
-              margin-bottom: 33px;
-            }
-            .photography-list-3 > li{
-              margin-bottom: 49px;
-            }
+          
   p.contact-sub-text{
     position: relative;
     left: 15%;
@@ -903,7 +774,7 @@ h3{
           position: relative;
           left: 6%;
         }
-        .artwork-list-1, .artwork-list-2, .artwork-list-3{
+        .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 31.4%;
           /* border: 1px solid red; */
           flex-direction: column;
@@ -911,26 +782,12 @@ h3{
           margin-top: 15px;
           margin-left: 10px;
           }
-          .artwork-list-1 > li{
-            margin-bottom: 68px;
+          .artphoto-list-1 > li{
+            margin-bottom: 9px;
           }
-          .artwork-list-3 > li{
-            margin-bottom: 82px;
+          .artphoto-list-2> li{
+            margin-bottom: 36px;
           }
-          .photography-list-1, .photography-list-2, .photography-list-3{
-            width: 31.4%;
-            /* border: 1px solid red; */
-            flex-direction: column;
-            padding: 0;
-            margin-top: 15px;
-            margin-left: 10px;
-            }
-            .photography-list-2 > li{
-              margin-bottom: 35px;
-            }
-            .photography-list-3 > li{
-              margin-bottom: 52px;
-            }
   p.contact-sub-text{
     position: relative;
     left: 16%;
@@ -999,7 +856,7 @@ h3{
           position: relative;
           left: 6%;
         }
-        .artwork-list-1, .artwork-list-2, .artwork-list-3{
+        .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 31.5%;
           /* border: 1px solid red; */
           flex-direction: column;
@@ -1007,26 +864,12 @@ h3{
           margin-top: 15px;
           margin-left: 10px;
           }
-          .artwork-list-1 > li{
-            margin-bottom: 75px;
+          .artphoto-list-1 > li{
+            margin-bottom: 9.5px;
           }
-          .artwork-list-3 > li{
-            margin-bottom: 91px;
+          .artphoto-list-2> li{
+            margin-bottom: 39.5px;
           }
-          .photography-list-1, .photography-list-2, .photography-list-3{
-            width: 31.5%;
-            /* border: 1px solid red; */
-            flex-direction: column;
-            padding: 0;
-            margin-top: 15px;
-            margin-left: 10px;
-            }
-            .photography-list-2 > li{
-              margin-bottom: 39px;
-            }
-            .photography-list-3 > li{
-              margin-bottom: 57px;
-            }
   p.contact-sub-text{
     position: relative;
     left: 16%;
@@ -1095,7 +938,7 @@ h3{
           position: relative;
           left: 6%;
         }
-        .artwork-list-1, .artwork-list-2, .artwork-list-3{
+        .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 31.5%;
           /* border: 1px solid red; */
           flex-direction: column;
@@ -1103,26 +946,12 @@ h3{
           margin-top: 15px;
           margin-left: 10px;
           }
-          .artwork-list-1 > li{
-            margin-bottom: 75px;
+          .artphoto-list-1 > li{
+            margin-bottom: 10px;
           }
-          .artwork-list-3 > li{
-            margin-bottom: 91px;
+          .artphoto-list-2> li{
+            margin-bottom: 40px;
           }
-          .photography-list-1, .photography-list-2, .photography-list-3{
-            width: 31.5%;
-            /* border: 1px solid red; */
-            flex-direction: column;
-            padding: 0;
-            margin-top: 15px;
-            margin-left: 10px;
-            }
-            .photography-list-2 > li{
-              margin-bottom: 39px;
-            }
-            .photography-list-3 > li{
-              margin-bottom: 57px;
-            }
   p.contact-sub-text{
     position: relative;
     left: 0%;
@@ -1192,7 +1021,7 @@ h3{
           position: relative;
           left: 7%;
         }
-        .artwork-list-1, .artwork-list-2, .artwork-list-3{
+        .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 31.5%;
           /* border: 1px solid red; */
           flex-direction: column;
@@ -1200,26 +1029,12 @@ h3{
           margin-top: 15px;
           margin-left: 10px;
           }
-          .artwork-list-1 > li{
-            margin-bottom: 78px;
+          .artphoto-list-1 > li{
+            margin-bottom: 10px;
           }
-          .artwork-list-3 > li{
-            margin-bottom: 96px;
+          .artphoto-list-2> li{
+            margin-bottom: 41px;
           }
-          .photography-list-1, .photography-list-2, .photography-list-3{
-            width: 31.5%;
-            /* border: 1px solid red; */
-            flex-direction: column;
-            padding: 0;
-            margin-top: 15px;
-            margin-left: 10px;
-            }
-            .photography-list-2 > li{
-              margin-bottom: 40px;
-            }
-            .photography-list-3 > li{
-              margin-bottom: 59px;
-            }
   p.contact-sub-text{
     position: relative;
     height: 80px;
@@ -1290,7 +1105,7 @@ h3{
               position: relative;
               left: 7%;
             }
-            .artwork-list-1, .artwork-list-2, .artwork-list-3{
+            .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
               width: 31.7%;
               /* border: 1px solid red; */
               flex-direction: column;
@@ -1298,26 +1113,12 @@ h3{
               margin-top: 15px;
               margin-left: 10px;
               }
-              .artwork-list-1 > li{
-                margin-bottom: 83px;
+              .artphoto-list-1 > li{
+                margin-bottom: 10.5px;
               }
-              .artwork-list-3 > li{
-                margin-bottom: 101px;
+              .artphoto-list-2> li{
+                margin-bottom: 44px;
               }
-              .photography-list-1, .photography-list-2, .photography-list-3{
-                width: 31.7%;
-                /* border: 1px solid red; */
-                flex-direction: column;
-                padding: 0;
-                margin-top: 15px;
-                margin-left: 10px;
-                }
-                .photography-list-2 > li{
-                  margin-bottom: 43px;
-                }
-                .photography-list-3 > li{
-                  margin-bottom: 63px;
-                }
       p.contact-sub-text{
         position: relative;
         height: 50px;
@@ -1389,7 +1190,7 @@ h3{
           position: relative;
           left: 7%;
         }
-        .artwork-list-1, .artwork-list-2, .artwork-list-3{
+        .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 31.7%;
           /* border: 1px solid red; */
           flex-direction: column;
@@ -1397,26 +1198,12 @@ h3{
           margin-top: 15px;
           margin-left: 10px;
           }
-          .artwork-list-1 > li{
-            margin-bottom: 85px;
+          .artphoto-list-1 > li{
+            margin-bottom: 11px;
           }
-          .artwork-list-3 > li{
-            margin-bottom: 103px;
+          .artphoto-list-2> li{
+            margin-bottom: 45px;
           }
-          .photography-list-1, .photography-list-2, .photography-list-3{
-            width: 31.7%;
-            /* border: 1px solid red; */
-            flex-direction: column;
-            padding: 0;
-            margin-top: 15px;
-            margin-left: 10px;
-            }
-            .photography-list-2 > li{
-              margin-bottom: 44px;
-            }
-            .photography-list-3 > li{
-              margin-bottom: 64px;
-            }
   p.contact-sub-text{
     position: relative;
     height: 50px;
@@ -1494,7 +1281,7 @@ h3{
           position: relative;
           left: 3%;
         }
-        .artwork-list-1, .artwork-list-2, .artwork-list-3{
+        .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 32%;
           /* border: 1px solid red; */
           flex-direction: column;
@@ -1502,26 +1289,12 @@ h3{
           margin-top: 15px;
           margin-left: 10px;
           }
-          .artwork-list-1 > li{
-            margin-bottom: 106px;
+          .artphoto-list-1 > li{
+            margin-bottom: 13px;
           }
-          .artwork-list-3 > li{
-            margin-bottom: 130px;
+          .artphoto-list-2> li{
+            margin-bottom: 56px;
           }
-          .photography-list-1, .photography-list-2, .photography-list-3{
-            width: 32%;
-            /* border: 1px solid red; */
-            flex-direction: column;
-            padding: 0;
-            margin-top: 15px;
-            margin-left: 10px;
-            }
-            .photography-list-2 > li{
-              margin-bottom: 55px;
-            }
-            .photography-list-3 > li{
-              margin-bottom: 80px;
-            }
   p.contact-sub-text{
     position: relative;
     height: 50px;
@@ -1602,7 +1375,7 @@ h3{
           position: relative;
           left: 7%;
         }
-        .artwork-list-1, .artwork-list-2, .artwork-list-3{
+        .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 32%;
           /* border: 1px solid red; */
           flex-direction: column;
@@ -1610,26 +1383,12 @@ h3{
           margin-top: 15px;
           margin-left: 10px;
           }
-          .artwork-list-1 > li{
-            margin-bottom: 106px;
+          .artphoto-list-1 > li{
+            margin-bottom: 13px;
           }
-          .artwork-list-3 > li{
-            margin-bottom: 130px;
+          .artphoto-list-2> li{
+            margin-bottom: 56px;
           }
-          .photography-list-1, .photography-list-2, .photography-list-3{
-            width: 32%;
-            /* border: 1px solid red; */
-            flex-direction: column;
-            padding: 0;
-            margin-top: 15px;
-            margin-left: 10px;
-            }
-            .photography-list-2 > li{
-              margin-bottom: 55px;
-            }
-            .photography-list-3 > li{
-              margin-bottom: 80px;
-            }
   p.contact-sub-text{
     position: relative;
     height: 50px;
@@ -1716,7 +1475,7 @@ h3{
           position: relative;
           left: 9%;
         }
-        .artwork-list-1, .artwork-list-2, .artwork-list-3{
+        .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 32.3%;
           /* border: 1px solid red; */
           flex-direction: column;
@@ -1724,26 +1483,12 @@ h3{
           margin-top: 15px;
           margin-left: 10px;
           }
-          .artwork-list-1 > li{
-            margin-bottom: 134px;
+          .artphoto-list-1 > li{
+            margin-bottom: 18px;
           }
-          .artwork-list-3 > li{
-            margin-bottom: 164px;
+          .artphoto-list-2> li{
+            margin-bottom: 72px;
           }
-          .photography-list-1, .photography-list-2, .photography-list-3{
-            width: 32.3%;
-            /* border: 1px solid red; */
-            flex-direction: column;
-            padding: 0;
-            margin-top: 15px;
-            margin-left: 10px;
-            }
-            .photography-list-2 > li{
-              margin-bottom: 69px;
-            }
-            .photography-list-3 > li{
-              margin-bottom: 102px;
-            }
   p.contact-sub-text{
     position: relative;
     height: 50px;
@@ -1831,7 +1576,7 @@ h3{
           .skillbar-title{
             font-size: 20px;
           }
-          .artwork-list-1, .artwork-list-2, .artwork-list-3{
+          .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
             width: 32.3%;
             /* border: 1px solid red; */
             flex-direction: column;
@@ -1839,26 +1584,12 @@ h3{
             margin-top: 15px;
             margin-left: 10px;
             }
-            .artwork-list-1 > li{
-              margin-bottom: 143px;
+            .artphoto-list-1 > li{
+              margin-bottom: 18px;
             }
-            .artwork-list-3 > li{
-              margin-bottom: 175px;
+            .artphoto-list-2> li{
+              margin-bottom: 76px;
             }
-            .photography-list-1, .photography-list-2, .photography-list-3{
-              width: 32.3%;
-              /* border: 1px solid red; */
-              flex-direction: column;
-              padding: 0;
-              margin-top: 15px;
-              margin-left: 10px;
-              }
-              .photography-list-2 > li{
-                margin-bottom: 75px;
-              }
-              .photography-list-3 > li{
-                margin-bottom: 109px;
-              }
   p.contact-sub-text{
     position: relative;
     height: 50px;

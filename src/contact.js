@@ -12,7 +12,13 @@ constructor(props){
   }
 }
 
- 
+//  onSubmit= () => {
+//   const form = document.querySelector('form')
+//   const data = new FormData(form)
+//   const req = new XMLHttpRequest()
+//   req.open(form.method, form.action)
+//   req.send(data)
+//  }
 
     render(){
 
@@ -23,7 +29,8 @@ constructor(props){
           <p className="contact-sub-text">Let's talk about work, sports, video games, music, and whatever excites you!!<br /></p>
           <h3 className ="contact-signature">Let's Connect & Work!</h3>
 
- <Form onSubmit={() => console.log()} action="https://formspree.io/bgraham452@gmail.com"
+ <Form onSubmit={() => console.log()}   action="https://formspree.io/xqlqkplm"
+
       method="POST" className="contact-box" >
             <div className="contact-name">
             <label htmlFor="name">Your Name: </label>
@@ -43,6 +50,7 @@ constructor(props){
         </Form>
         <h3 className="follow-signature">Follow Me Here!</h3>
           <ul className="social-media-icons">
+          <li><a href="mailto:bgraham452@gmail.com"><img src={require('./images/icons/email.png')} className="icon-1" alt="Email Icon" /></a></li>
           <li><a href="https://github.com/bgraham452"><img src={require('./images/icons/github.png')} className="icon-1" alt="Github Icon" /></a></li>
           <li><a href="https://www.behance.net/brandonleegraham"><img src={require('./images/icons/behance.png')} className="icon-2" alt="Behance Icon" /></a></li>
           <li><a href="https://twitter.com/DutchNorris_"><img src={require('./images/icons/twitter.png')} className="icon-4" alt="Twitter Icon" /></a></li>

@@ -138,6 +138,39 @@ p.about-text{
 .project-shot-2{
   width: 50%;
 }
+.skills-container{
+  width: 100%;
+  /* border: 1px solid red;  */
+  border-bottom: 1px solid #0F0A0A;
+}
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+.skills-list-mobile{
+  width: 25%;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+
+}
+.skills-list-mobile-1, .skills-list-mobile-2{
+  display: none;
+}
+.skills-list-desktop-1, .skills-list-desktop-2, .skills-list-desktop-3, .skills-list-desktop-4{
+  display: none;
+}
+.express {
+  position: relative;
+  width: 200px !important;
+  right: 75%;
+}
+
+.skill-icon{
+  width: 87%;
+}
+
 .skill-title{
   position: relative;
   right: 3%;
@@ -201,8 +234,6 @@ p.about-text{
   position: relative;
   width: 100%;
 }
-
-
 .overlay {
   display: none;
   position: absolute;
@@ -286,7 +317,7 @@ p.contact-sub-text{
 
 }
 .social-media-icons > li {
-  width: 15vw;
+  width: 12vw;
   margin-right: 1vw;
 }
 .icon-1, .icon-2, .icon-3, .icon-4, .icon-5{
@@ -351,6 +382,9 @@ h3{
       .artphoto-list-2> li{
         margin-bottom: 17px;
       }
+      .express {  
+        right: 67%;
+      }
       
 }
 /* iPhone 6/7/8 */
@@ -412,7 +446,9 @@ h3{
           .artphoto-list-2> li{
             margin-bottom: 13.5px;
           }
-          
+          .express {  
+            right: 67%;
+          }
             .social-media-icons{
               margin-left: 8vw;
             }
@@ -540,8 +576,11 @@ h3{
           .artphoto-list-2> li{
             margin-bottom: 9.5px;
           }
+          .express {  
+            right: 50%;
+          }
             .social-media-icons{
-              margin-left: 10vw;
+              margin-left: 9vw;
             }
             
 }
@@ -604,8 +643,11 @@ h3{
           .artphoto-list-2> li{
             margin-bottom: 9.6px;
           }
+          .express {  
+            right: 50%;
+          }
             .social-media-icons{
-              margin-left: 10vw;
+              margin-left: 9vw;
             }
          
 }
@@ -672,6 +714,9 @@ h3{
           .artphoto-list-3> li{
             margin-bottom: 6.5px;
           }
+          .express {  
+            right: 30%;
+          }
          
   p.contact-sub-text{
     position: relative;
@@ -689,7 +734,7 @@ h3{
     height: 25px;
   }
   .social-media-icons{
-    margin-left: 12vw;
+    margin-left: 11vw;
   }
 }
 /* S5 landscape */
@@ -754,6 +799,9 @@ h3{
           .artphoto-list-3> li{
             margin-bottom: 7px;
           }
+          .express {  
+            right: 20%;
+          }
           
   p.contact-sub-text{
     position: relative;
@@ -771,7 +819,7 @@ h3{
     height: 25px;
   }
   .social-media-icons{
-    margin-left: 13vw;
+    margin-left: 12vw;
   }
 }
 
@@ -837,6 +885,9 @@ h3{
           .artphoto-list-3> li{
             margin-bottom: 7px;
           }
+          .express {  
+            right: 20%;
+          }
   p.contact-sub-text{
     position: relative;
     left: 16%;
@@ -853,7 +904,7 @@ h3{
     height: 25px;
   }
   .social-media-icons{
-    margin-left: 13vw;
+    margin-left: 12vw;
   }
 
 }
@@ -919,6 +970,9 @@ h3{
           .artphoto-list-3 > li{
             margin-bottom: 8px;
           }
+          .express {  
+            right: 15%;
+          }
   p.contact-sub-text{
     position: relative;
     left: 16%;
@@ -936,7 +990,7 @@ h3{
     font-size: 25px;
   }
   .social-media-icons{
-    margin-left: 13vw;
+    margin-left: 12vw;
   }
 }
 /* iPhone 6/7/8 Plus landscape */
@@ -1001,6 +1055,9 @@ h3{
           .artphoto-list-3 > li{
             margin-bottom: 8px;
           }
+          .express {  
+            right: 15%;
+          }
   p.contact-sub-text{
     position: relative;
     left: 0%;
@@ -1018,7 +1075,7 @@ h3{
     height: 45px;
   }
   .social-media-icons{
-    margin-left: 14vw;
+    margin-left: 13vw;
   }
 }
 
@@ -1062,6 +1119,39 @@ h3{
           position: relative;
           left: 7%;
         }
+        .skills-list-mobile{
+          display: none;
+        }
+        .skills-list-mobile-1{
+          display: block;
+          width: 25%;
+          flex-direction: column;
+          padding: 0;
+          margin-right: 200px;
+        }
+        
+        .skills-list-mobile-2{
+          display: block;
+
+          width: 25%;
+          flex-direction: column;
+          padding: 0;
+          margin-top: 25px;
+                }
+                .react{
+                  width: 67%;
+                }
+                .node{
+                  width: 70%;
+                }
+              .css{
+                margin-top:5px;
+                width: 80%;
+              }
+              .express {  
+                width: 280px !important;
+                right: 25%;
+              }
         .skill-title{
           position: relative;
           left: 7%;
@@ -1085,7 +1175,7 @@ h3{
             margin-bottom: 45px;
           }
          
-          
+        
           .img-description{
             display: none;
           }
@@ -1114,7 +1204,7 @@ h3{
     font-size: 15px;
   }
   .social-media-icons{
-    margin-left: 14vw;
+    margin-left: 13vw;
   }
 }
     /* iPhone X landscape */
@@ -1157,6 +1247,39 @@ h3{
               position: relative;
               left: 7%;
             }
+            .skills-list-mobile{
+              display: none;
+            }
+            .skills-list-mobile-1{
+              display: block;
+              width: 25%;
+              flex-direction: column;
+              padding: 0;
+              margin-right: 200px;
+            }
+            
+            .skills-list-mobile-2{
+              display: block;
+    
+              width: 25%;
+              flex-direction: column;
+              padding: 0;
+              margin-top: 25px;
+                    }
+                    .react{
+                      width: 86%;
+                    }
+                    .node{
+                      width: 53%;
+                    }
+                  .css{
+                    margin-top:5px;
+                    width: 80%;
+                  }
+                  .express {  
+                    width: 280px !important;
+                    right: 25%;
+                  }
             .skill-title{
               position: relative;
               left: 7%;
@@ -1208,7 +1331,7 @@ h3{
         font-size: 15px;
       }
       .social-media-icons{
-        margin-left: 14vw;
+        margin-left: 13vw;
       }
     }
 
@@ -1252,6 +1375,39 @@ h3{
           position: relative;
           left: 7%;
         }
+        .skills-list-mobile{
+          display: none;
+        }
+        .skills-list-mobile-1{
+          display: block;
+          width: 25%;
+          flex-direction: column;
+          padding: 0;
+          margin-right: 200px;
+        }
+        
+        .skills-list-mobile-2{
+          display: block;
+
+          width: 25%;
+          flex-direction: column;
+          padding: 0;
+          margin-top: 25px;
+                }
+                .react{
+                  width: 86%;
+                }
+                .node{
+                  width: 53%;
+                }
+              .css{
+                margin-top:5px;
+                width: 80%;
+              }
+              .express {  
+                width: 280px !important;
+                right: 25%;
+              }
         .skill-title{
           position: relative;
           left: 7%;
@@ -1303,7 +1459,7 @@ h3{
     font-size: 15px;
   }
   .social-media-icons{
-    margin-left: 14vw;
+    margin-left: 13vw;
   }
 }
  /* iPad landscape */
@@ -1353,6 +1509,40 @@ h3{
           position: relative;
           left: 2%;
         }
+        .skills-list-mobile{
+          display: none;
+        }
+        .skills-list-mobile-1{
+          display: block;
+          width: 25%;
+          flex-direction: column;
+          padding: 0;
+          margin-right: 200px;
+        }
+        
+        .skills-list-mobile-2{
+          display: block;
+
+          width: 25%;
+          flex-direction: column;
+          padding: 0;
+          margin-top: 25px;
+                }
+                .react{
+                  width: 86%;
+                }
+                .node{
+                  width: 75%;
+                }
+              .css{
+                margin-top:5px;
+                width: 80%;
+              
+              }
+              .express {  
+                width: 280px !important;
+                right: 10%;
+              }
         .skill-title{
           position: relative;
           left: 3%;
@@ -1403,7 +1593,7 @@ h3{
     font-size: 15px;
   }
   .social-media-icons{
-    margin-left: 15vw;
+    margin-left: 14vw;
   }
 }
 /* iPad Pro  */
@@ -1456,6 +1646,40 @@ h3{
           position: relative;
           left: 7%;
         }
+        .skills-list-mobile{
+          display: none;
+        }
+        .skills-list-mobile-1{
+          display: block;
+          width: 25%;
+          flex-direction: column;
+          padding: 0;
+          margin-right: 200px;
+        }
+        
+        .skills-list-mobile-2{
+          display: block;
+
+          width: 25%;
+          flex-direction: column;
+          padding: 0;
+          margin-top: 25px;
+                }
+                .react{
+                  width: 86%;
+                }
+                .node{
+                  width: 75%;
+                }
+              .css{
+                margin-top:5px;
+                width: 80%;
+              
+              }
+              .express {  
+                width: 280px !important;
+                right: 10%;
+              }
         .skill-title{
           position: relative;
           left: 7%;
@@ -1512,7 +1736,7 @@ h3{
     font-size: 15px;
   }
   .social-media-icons{
-    margin-left: 15vw;
+    margin-left: 14vw;
   }
 }
 /* Desktop */
@@ -1565,6 +1789,65 @@ h3{
           position: relative;
           left: 9%;
         }
+        .skills-list-mobile{
+          display: none;
+        }
+        .skills-list-desktop-1, .skills-list-desktop-2, .skills-list-desktop-3, .skills-list-desktop-4{
+          display: block;
+          width: 15%;
+          flex-direction: column;
+          padding: 0;
+        }
+        .skills-list-desktop-1{
+          margin-right: 200px;
+        }
+        .skills-list-desktop-2{
+          margin-top: 60px;
+          margin-right: 150px;
+        }
+        .skills-list-desktop-3{
+          margin-right: 150px; 
+          margin-top: 82px;
+
+        }
+        .skills-list-desktop-4{
+          margin-top: 82px;
+
+        }
+        .js{
+            margin-top:5px;
+            width: 67%;
+          
+        }
+        .react{
+          width: 48%;
+        }
+        .mongodb{
+          width: 61%;
+        }
+        .ajax{
+          width: 100%;
+        }
+        .postgres{
+          width: 107%;
+        }
+        .node{
+          width: 64%;
+        }
+        .rest{
+          width: 64%;
+        }
+        .npm{
+          width: 76%;
+        }
+      .css{
+        margin-top:5px;
+        width: 66%;
+      }
+              .express {  
+                width: 380px !important;
+                right: 60%;
+              }
         .skill-title{
           position: relative;
           left: 9%;
@@ -1621,7 +1904,7 @@ h3{
     font-size: 15px;
   }
   .social-media-icons{
-    margin-left: 26vw;
+    margin-left: 20.5vw;
   }
   .social-media-icons > li
   {
@@ -1675,7 +1958,40 @@ h3{
           float: left;
           width: 25%;
         }
-      
+        .skills-list-mobile{
+          display: none;
+        }
+        .skills-list-mobile-1{
+          display: block;
+          width: 25%;
+          flex-direction: column;
+          padding: 0;
+          margin-right: 200px;
+        }
+        
+        .skills-list-mobile-2{
+          display: block;
+
+          width: 25%;
+          flex-direction: column;
+          padding: 0;
+          margin-top: 25px;
+                }
+                .react{
+                  width: 86%;
+                }
+                .node{
+                  width: 75%;
+                }
+              .css{
+                margin-top:5px;
+                width: 80%;
+              
+              }
+              .express {  
+                width: 280px !important;
+                right: 10%;
+              }
         .skill-bars {
           margin-top: 12px;
           position: relative;
@@ -1731,7 +2047,7 @@ h3{
     font-size: 15px;
   }
   .social-media-icons{
-    margin-left: 26vw;
+    margin-left: 20.5vw;
   }
   .social-media-icons > li
   {

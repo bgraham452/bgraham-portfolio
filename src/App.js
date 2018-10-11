@@ -3,6 +3,7 @@ import './App.css';
 import Header from './header';
 import ProfileImg from './profile-img'
 import About from './about';
+import SkillList from './skill-list';
 import Projects from './projects';
 import ArtworkPhotography from './artwork-photography';
 import Contact from './contact';
@@ -14,8 +15,9 @@ class App extends Component {
       <div className="App">
         <Header />
         <ProfileImg />
-        <About />
         <Projects />
+        <SkillList />
+        <About />
         <ArtworkPhotography />
         <Contact />
         <ScrollUpButton />

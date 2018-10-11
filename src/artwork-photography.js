@@ -11,7 +11,7 @@ class ArtworkPhotography extends Component {
       <ul className="artphoto-list-1">
       <li>
       <div className="container">
-        <img src={require('./images/photography/dt-after-dark-1.png')} className="artwork-img-2" alt="Alicia Key's Here Album Cover Recreation" />
+        <img src={require('./images/photography/dt-after-dark-1.png')} className="artwork-img-2" alt="Downtown After Dark Photoshoot" />
         <div className="overlay">
     <div className="text"> 
     <p className="overlay-description">
@@ -30,7 +30,7 @@ class ArtworkPhotography extends Component {
       </li>
       <li>
       <div className="container">
-        <img src={require('./images/artwork/school_daze.jpg')} className="artwork-img-1" alt="Mogami 4in cover art" />
+        <img src={require('./images/artwork/school_daze.jpg')} className="artwork-img-1" alt="UGA Alpha Week Promotional Flyer Compilation" />
         <div className="overlay">
     <div className="text"> <p className="overlay-description">
         UGA Alpha Week Promotional Flyer Compilation <br />
@@ -47,7 +47,7 @@ class ArtworkPhotography extends Component {
      </li>
       <li>
       <div className="container">
-        <img src={require('./images/photography/infusion-shoot-1.jpg')} className="artwork-img-3" alt="Alpha Week Flyer Compilation - University of Georgia Alpha Phi Alpha Chapter" />
+        <img src={require('./images/photography/infusion-shoot-1.jpg')} className="artwork-img-3" alt="Infusion Spring 2018 Photoshoot" />
         <div className="overlay">
     <div className="text"> <p className="overlay-description">
     Infusion Spring 2018 Photoshoot <br />
@@ -66,7 +66,7 @@ class ArtworkPhotography extends Component {
       <ul className="artphoto-list-2">
       <li>
       <div className="container">
-        <img src={require('./images/artwork/album-shoot-2.png')} className="artwork-img-1" alt="The Weekend's Trilogy Album Cover Recreation" />
+        <img src={require('./images/artwork/album-shoot-2.png')} className="artwork-img-1" alt="Album Cover Re-creation Photoshoot" />
         <div className="overlay">
     <div className="text"> <p className="overlay-description">
     Album Cover Re-creation Photoshoot <br />
@@ -83,7 +83,7 @@ class ArtworkPhotography extends Component {
      </li>
       <li>
       <div className="container">
-        <img src={require('./images/photography/flowers.jpg')} className="artwork-img-1" alt="The Weekend's Trilogy Album Cover Recreation" />
+        <img src={require('./images/photography/flowers.jpg')} className="artwork-img-1" alt="North Campus Nature Photoshoot" />
         <div className="overlay">
     <div className="text"> <p className="overlay-description">
     North Campus Nature Photoshoot <br />
@@ -119,7 +119,7 @@ class ArtworkPhotography extends Component {
       <ul className="artphoto-list-3">
       <li>
       <div className="container">
-        <img src={require('./images/photography/DSCF4074.jpg')} className="artwork-img-3" alt="India Arie's Acoustic Soul Album Cover Recreation" />
+        <img src={require('./images/photography/DSCF4074.jpg')} className="artwork-img-3" alt="UGA Black Lives Matter Silent Rally" />
         <div className="overlay">
     <div className="text"> <p className="overlay-description">
     UGA Black Lives Matter Silent Rally <br />
@@ -137,7 +137,7 @@ class ArtworkPhotography extends Component {
       <li>
       <div className="container">
 
-        <img src={require('./images/artwork/SON-GOKU.jpg')} className="artwork-img-2" alt="Son Goku homage piece" />
+        <img src={require('./images/artwork/SON-GOKU.jpg')} className="artwork-img-2" alt="Son Goku 3-D Promotional Art Piece" />
         <div className="overlay">
     <div className="text"> <p className="overlay-description">
     Son Goku 3-D Promotional Art Piece <br />
@@ -154,7 +154,7 @@ class ArtworkPhotography extends Component {
      </li>
       <li>
       <div className="container">
-        <img src={require('./images/photography/DSC_0175.jpg')} className="artwork-img-1" alt="Sun Gods" />
+        <img src={require('./images/photography/DSC_0175.jpg')} className="artwork-img-1" alt="Infusion Fall 2018 Photoshoot" />
         <div className="overlay">
 
         <div className="text"> <p className="overlay-description">

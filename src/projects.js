@@ -1,28 +1,10 @@
 import React, {Component} from 'react';
 import './App.css';
-import SkillBar from 'react-skillbars';
 
 class Projects extends Component {
 
     render(){
-        const project1Skills = [
-            {type: "React.js", level: 40},
-            {type: "Redux", level: 10},
-            {type: "Node.js", level: 30},
-            {type: "MongoDB", level: 20},
-    
-          ];
-          const project2Skills = [
-            {type: "React-Native", level: 100}
-          ];
-
-          const colors = {
-            "bar": "#34E4EA",
-            "title": {
-              "text": "#F5EFED",
-              "background": "#0EB1D2"
-            }
-          }
+        
         return (
           <section className="projects-container" id="projects">
           <h2 className="projects-header">Projects</h2>
@@ -37,9 +19,22 @@ class Projects extends Component {
 
 </p>  
 <h4 className="skill-title">Skills Used:</h4>
-<div className="skill-bars">
-<SkillBar skills={project2Skills} colors={colors} />
-</div>
+<ul className="skill-bars-1">
+<li>
+  <img src={require('./images/icons/reactv4.jpg')} className="skill react" alt="React" />
+</li>
+<li>
+  <img src={require('./images/icons/js.png')} className="skill js" alt="javascript" />
+</li>
+<li>
+  <img src={require('./images/icons/css.png')} className="skill css" alt="css" />
+</li>
+<li>
+  <img src={require('./images/icons/git.png')} className="skill git" alt="git" />
+</li>
+</ul>
+        
+        
         </li>
         <li>
               <h3><u className="project-title-2">LowerReact's Fantasy Football Rankings App</u></h3>
@@ -54,9 +49,23 @@ This app is a comprehensive list of players in the NFL ranked in order to give y
 
 </p>  
 <h4 className="skill-title">Skills Used:</h4>
-<div className="skill-bars">
-<SkillBar skills={project1Skills} colors={colors} />
-</div>
+<ul className="skill-bars-2">
+<li>
+  <img src={require('./images/icons/node.svg')} className="skill node" alt="Node" />
+</li>
+<li>
+  <img src={require('./images/icons/js.png')} className="skill js" alt="javascript" />
+</li>
+<li>
+  <img src={require('./images/icons/mongodb.png')} className="skill mongodb" alt="mongoDB" />
+</li>
+<li>
+  <img src={require('./images/icons/git.png')} className="skill git" alt="css" />
+</li>
+<li>
+  <img src={require('./images/icons/004-express-js.png')} className="skill express" alt="css" />
+</li>
+</ul>
         </li>
         </ul>
 

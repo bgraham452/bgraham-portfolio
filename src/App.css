@@ -138,6 +138,69 @@ p.about-text{
 .project-shot-2{
   width: 50%;
 }
+.skill-bars-1{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 5px;
+  right: 6%;
+}
+.skill-bars-1 li {
+  width: 20%;
+  margin-right: 5px;
+}
+.skill-bars-2{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 5px;
+  right: 15%;
+}
+.skill-bars-2 li {
+  width: 20%;
+  margin-right: 5px;
+}
+.skill-bars-1 > .skill.js{
+  width: 100%;
+  position: relative;
+  bottom: 6px;
+}
+.skill-bars-2 .skill.js{
+  width: 100%;
+  position: relative;
+  bottom: 6px;
+}
+.skill.mongodb{
+  position: relative;
+  top: 5px;
+}
+.skill-bars-2 .skill.express{
+width: 100px !important;
+position: relative;
+right: 15%;
+top: 5px;
+}
+
+.skill{
+  width: 100%;
+}
+.skill.react{
+  position: relative;
+  top: 8px;
+}
+.skill.css{
+  position: relative;
+  top: 2px;
+  width: 92%;
+}
+.skill-bars-1 .skill.git{
+  position: relative;
+  top: 12px;
+}
+.skill-bars-2 .skill.git{
+  position: relative;
+  top: 5px;
+}
 .skills-container{
   width: 100%;
   /* border: 1px solid red;  */
@@ -175,10 +238,7 @@ p.about-text{
   position: relative;
   right: 3%;
 }
-.skill-bars{
-  position: relative;
-  right: 3%;
-}
+
 .skillbar-title > span{
   font-size: 11px;
 }
@@ -382,6 +442,7 @@ h3{
       .artphoto-list-2> li{
         margin-bottom: 17px;
       }
+    
       .express {  
         right: 67%;
       }
@@ -428,9 +489,19 @@ h3{
           position: relative;
           right: 2%;
         }
-        .skill-bars{
+        .skill-bars-1{
+          display: flex;
+          flex-direction: row;
           position: relative;
-          right: 0%;
+          top: 5px;
+          right: 3%;
+        }
+        .skill-bars-2{
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          top: 5px;
+          right: 8%;
         }
         .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 29.7%;
@@ -558,9 +629,20 @@ h3{
           position: relative;
           right: 0%;
         }
-        .skill-bars{
+        
+        .skill-bars-1{
+          display: flex;
+          flex-direction: row;
           position: relative;
-          right: 0%;
+          top: 5px;
+          right: 3%;
+        }
+        .skill-bars-2{
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          top: 5px;
+          right: 8%;
         }
         .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 29.7%;
@@ -625,9 +707,19 @@ h3{
           position: relative;
           right: 0%;
         }
-        .skill-bars{
+        .skill-bars-1{
+          display: flex;
+          flex-direction: row;
           position: relative;
-          right: 0%;
+          top: 5px;
+          right: 3%;
+        }
+        .skill-bars-2{
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          top: 5px;
+          right: 8%;
         }
         .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 30%;
@@ -696,9 +788,31 @@ h3{
           position: relative;
           left: 3%;
         }
-        .skill-bars{
+        .skill-bars-1{
+          display: flex;
+          flex-direction: row;
           position: relative;
-          left: 3%;
+          top: 5px;
+          left: 6%;
+        }
+        .skill-bars-2{
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          top: 5px;
+          right: 1%;
+        }
+        .skill{
+          width: 75%;
+        }
+        .skill-bars-1 .skill.css{
+          width: 70%;
+        }
+        .skill-bars-2 .skill.js{
+          width: 70%;
+        }
+        .skill-bars-2 .skill.express{
+          width: 130px !important;
         }
         .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 31%;
@@ -781,9 +895,31 @@ h3{
           position: relative;
           left: 5%;
         }
-        .skill-bars{
+        .skill-bars-1{
+          display: flex;
+          flex-direction: row;
           position: relative;
-          left: 5%;
+          top: 5px;
+          left: 9%;
+        }
+        .skill-bars-2{
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          top: 5px;
+          left: 2%;
+        }
+        .skill{
+          width: 75%;
+        }
+        .skill-bars-1 .skill.css{
+          width: 70%;
+        }
+        .skill-bars-2 .skill.js{
+          width: 70%;
+        }
+        .skill-bars-2 .skill.express{
+          width: 130px !important;
         }
         .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 31%;
@@ -867,9 +1003,31 @@ h3{
           position: relative;
           left: 6%;
         }
-        .skill-bars{
+        .skill-bars-1{
+          display: flex;
+          flex-direction: row;
           position: relative;
-          left: 6%;
+          top: 5px;
+          left: 10%;
+        }
+        .skill-bars-2{
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          top: 5px;
+          left: 3%;
+        }
+        .skill{
+          width: 75%;
+        }
+        .skill-bars-1 .skill.css{
+          width: 70%;
+        }
+        .skill-bars-2 .skill.js{
+          width: 70%;
+        }
+        .skill-bars-2 .skill.express{
+          width: 130px !important;
         }
         .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 31.4%;
@@ -952,9 +1110,33 @@ h3{
           position: relative;
           left: 6%;
         }
-        .skill-bars{
+        .skill-bars-1{
+          display: flex;
+          flex-direction: row;
           position: relative;
-          left: 6%;
+          top: 5px;
+          left: 10%;
+        }
+        .skill-bars-2{
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          top: 5px;
+          left: 3%;
+        }
+        .skill{
+          width: 75%;
+        }
+        .skill-bars-1 .skill.css{
+          width: 70%;
+        }
+        .skill-bars-2 .skill.js{
+          width: 70%;
+        }
+        .skill-bars-2 .skill.express{
+          position: relative;
+          top: 15px;
+          width: 160px !important;
         }
         .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 31.5%;
@@ -1037,9 +1219,33 @@ h3{
           position: relative;
           left: 6%;
         }
-        .skill-bars{
+        .skill-bars-1{
+          display: flex;
+          flex-direction: row;
           position: relative;
-          left: 6%;
+          top: 5px;
+          left: 10%;
+        }
+        .skill-bars-2{
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          top: 5px;
+          left: 3%;
+        }
+        .skill{
+          width: 75%;
+        }
+        .skill-bars-1 .skill.css{
+          width: 70%;
+        }
+        .skill-bars-2 .skill.js{
+          width: 70%;
+        }
+        .skill-bars-2 .skill.express{
+          position: relative;
+          top: 15px;
+          width: 160px !important;
         }
         .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 31.5%;
@@ -1118,6 +1324,53 @@ h3{
         .project2-description{
           position: relative;
           left: 7%;
+        }
+        .skill-bars-1{
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          top: 5px;
+          left: 10%;
+        }
+        .skill-bars-2{
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          top: 5px;
+          left: 0%;
+        }
+        .skill{
+          width: 75%;
+        }
+        .skill-bars-1 .skill.react{
+          width: 80%;
+          top: 15px;
+        }
+        .skill-bars-1 .skill.css{
+          width: 70%;
+        }
+        .skill-bars-1 .skill.js{
+          width: 75%;
+        }
+        .skill-bars-1 .skill.git{
+          width: 75%;
+          top: 25px;
+        }
+        .skill-bars-2 .skill.node{
+          width: 70%;
+        }
+        .skill-bars-2 .skill.js{
+          width: 70%;
+          bottom: 15px;
+        }
+        .skill-bars-2 .skill.mongodb{
+          top: 10px;
+          width: 70%;
+        }
+        .skill-bars-2 .skill.express{
+          position: relative;
+          top: 15px;
+          width: 180px !important;
         }
         .skills-list-mobile{
           display: none;
@@ -1277,6 +1530,53 @@ h3{
               position: relative;
               left: 7%;
             }
+            .skill-bars-1{
+              display: flex;
+              flex-direction: row;
+              position: relative;
+              top: 5px;
+              left: 10%;
+            }
+            .skill-bars-2{
+              display: flex;
+              flex-direction: row;
+              position: relative;
+              top: 5px;
+              left: 2%;
+            }
+            .skill{
+              width: 75%;
+            }
+            .skill-bars-1 .skill.react{
+              width: 80%;
+              top: 15px;
+            }
+            .skill-bars-1 .skill.css{
+              width: 70%;
+            }
+            .skill-bars-1 .skill.js{
+              width: 75%;
+            }
+            .skill-bars-1 .skill.git{
+              width: 75%;
+              top: 25px;
+            }
+            .skill-bars-2 .skill.node{
+              width: 70%;
+            }
+            .skill-bars-2 .skill.js{
+              width: 70%;
+              bottom: 15px;
+            }
+            .skill-bars-2 .skill.mongodb{
+              top: 10px;
+              width: 70%;
+            }
+            .skill-bars-2 .skill.express{
+              position: relative;
+              top: 15px;
+              width: 180px !important;
+            }
             .skills-list-mobile{
               display: none;
             }
@@ -1404,6 +1704,53 @@ h3{
         .project2-description{
           position: relative;
           left: 7%;
+        }
+        .skill-bars-1{
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          top: 5px;
+          left: 12%;
+        }
+        .skill-bars-2{
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          top: 5px;
+          left: 2%;
+        }
+        .skill{
+          width: 75%;
+        }
+        .skill-bars-1 .skill.react{
+          width: 80%;
+          top: 15px;
+        }
+        .skill-bars-1 .skill.css{
+          width: 70%;
+        }
+        .skill-bars-1 .skill.js{
+          width: 75%;
+        }
+        .skill-bars-1 .skill.git{
+          width: 75%;
+          top: 25px;
+        }
+        .skill-bars-2 .skill.node{
+          width: 70%;
+        }
+        .skill-bars-2 .skill.js{
+          width: 70%;
+          bottom: 15px;
+        }
+        .skill-bars-2 .skill.mongodb{
+          top: 10px;
+          width: 70%;
+        }
+        .skill-bars-2 .skill.express{
+          position: relative;
+          top: 15px;
+          width: 180px !important;
         }
         .skills-list-mobile{
           display: none;
@@ -1538,6 +1885,53 @@ h3{
         .project2-description{
           position: relative;
           left: 2%;
+        }
+        .skill-bars-1{
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          top: 0px;
+          left: 13%;
+        }
+        .skill-bars-2{
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          top: 5px;
+          left: 5%;
+        }
+        .skill{
+          width: 75%;
+        }
+        .skill-bars-1 .skill.react{
+          width: 80%;
+          top: 15px;
+        }
+        .skill-bars-1 .skill.css{
+          width: 70%;
+        }
+        .skill-bars-1 .skill.js{
+          width: 75%;
+        }
+        .skill-bars-1 .skill.git{
+          width: 75%;
+          top: 25px;
+        }
+        .skill-bars-2 .skill.node{
+          width: 70%;
+        }
+        .skill-bars-2 .skill.js{
+          width: 70%;
+          bottom: 15px;
+        }
+        .skill-bars-2 .skill.mongodb{
+          top: 10px;
+          width: 70%;
+        }
+        .skill-bars-2 .skill.express{
+          position: relative;
+          top: 15px;
+          width: 180px !important;
         }
         .skills-list-mobile{
           display: none;
@@ -1675,6 +2069,53 @@ h3{
         .project2-description{
           position: relative;
           left: 7%;
+        }
+        .skill-bars-1{
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          top: 0px;
+          left: 13%;
+        }
+        .skill-bars-2{
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          top: 5px;
+          left: 5%;
+        }
+        .skill{
+          width: 75%;
+        }
+        .skill-bars-1 .skill.react{
+          width: 80%;
+          top: 15px;
+        }
+        .skill-bars-1 .skill.css{
+          width: 70%;
+        }
+        .skill-bars-1 .skill.js{
+          width: 75%;
+        }
+        .skill-bars-1 .skill.git{
+          width: 75%;
+          top: 25px;
+        }
+        .skill-bars-2 .skill.node{
+          width: 70%;
+        }
+        .skill-bars-2 .skill.js{
+          width: 70%;
+          bottom: 15px;
+        }
+        .skill-bars-2 .skill.mongodb{
+          top: 10px;
+          width: 70%;
+        }
+        .skill-bars-2 .skill.express{
+          position: relative;
+          top: 15px;
+          width: 180px !important;
         }
         .skills-list-mobile{
           display: none;
@@ -1926,9 +2367,52 @@ h3{
           position: relative;
           left: 9%;
         }
-        .skill-bars{
+        .skill-bars-1{
+          display: flex;
+          flex-direction: row;
           position: relative;
-          left: 9%;
+          top: 0px;
+          left: 17%;
+        }
+        .skill-bars-2{
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          top: 5px;
+          left: 7%;
+        }
+        .skill{
+          width: 75%;
+        }
+        .skill-bars-1 .skill.react{
+          width: 80%;
+          top: 15px;
+        }
+        .skill-bars-1 .skill.css{
+          width: 70%;
+        }
+        .skill-bars-1 .skill.js{
+          width: 75%;
+        }
+        .skill-bars-1 .skill.git{
+          width: 75%;
+          top: 25px;
+        }
+        .skill-bars-2 .skill.node{
+          width: 70%;
+        }
+        .skill-bars-2 .skill.js{
+          width: 70%;
+          bottom: 15px;
+        }
+        .skill-bars-2 .skill.mongodb{
+          top: 10px;
+          width: 70%;
+        }
+        .skill-bars-2 .skill.express{
+          position: relative;
+          top: 30px;
+          width: 270px !important;
         }
         .artphoto-list-1, .artphoto-list-2, .artphoto-list-3{
           width: 32.3%;
@@ -2031,6 +2515,58 @@ h3{
         .project-shot-2{
           float: left;
           width: 25%;
+        }
+        .skill-bars-1{
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          top: 5px;
+          left: 6%;
+        }
+        .skill-bars-2{
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          top: 5px;
+          right: 5%;
+        }
+        .skill-bars-1 .skill.react{
+          width: 80%;
+          top: 15px;
+        }
+        .skill-bars-1 .skill.css{
+          width: 70%;
+        }
+        .skill-bars-1 .skill.js{
+          width: 75%;
+        }
+        .skill-bars-1 .skill.git{
+          width: 75%;
+          top: 50px;
+        }
+        .skill-bars-2 .skill.node{
+          width: 70%;
+        }
+        .skill-bars-2 .skill.mongodb{
+          width: 70%;
+
+        }
+        .skill-bars-2 .skill.js{
+          width: 60%;
+          bottom: 15px;
+        }
+        .skill-bars-2 .skill.git{
+          width: 70%;
+          top: 25px;
+        }
+        .skill-bars-2 .skill.mongodb{
+          top: 10px;
+          width: 70%;
+        }
+        .skill-bars-2 .skill.express{
+          position: relative;
+          top: 30px;
+          width: 270px !important;
         }
         .skills-list-mobile{
           display: none;

@@ -1136,22 +1136,52 @@ h3{
           width: 25%;
           flex-direction: column;
           padding: 0;
-          margin-top: 25px;
+          margin-top: 19px;
                 }
+                .skill-icon{
+                  width: 40%;
+                }
+                .js{
+                    margin-top:5px;
+                    width: 32%;
+                  
+                }
+               
                 .react{
-                  width: 67%;
+                  width: 45%;
+                }
+                .mongodb{
+                  width: 45%;
+                }
+                .ajax{
+                  width: 100%;
+                }
+                .postgres{
+                  width: 52%;
                 }
                 .node{
-                  width: 70%;
+                  width: 38%;
+                }
+                .jasmine{
+                  width: 43%;
+                }
+                .rest{
+                  width: 47%;
+                }
+                .redux{
+                  width: 45%;
+                }
+                .npm{
+                  width: 42%;
                 }
               .css{
                 margin-top:5px;
-                width: 80%;
+                width: 35%;
               }
-              .express {  
-                width: 280px !important;
-                right: 25%;
-              }
+                      .express {  
+                        width: 235px !important;
+                        right: 15%;
+                      }
         .skill-title{
           position: relative;
           left: 7%;
@@ -1663,23 +1693,52 @@ h3{
           width: 25%;
           flex-direction: column;
           padding: 0;
-          margin-top: 25px;
+          margin-top: 15px;
                 }
+                .skill-icon{
+                  width: 40%;
+                }
+                .js{
+                    margin-top:5px;
+                    width: 32%;
+                  
+                }
+               
                 .react{
-                  width: 86%;
+                  width: 45%;
+                }
+                .mongodb{
+                  width: 43%;
+                }
+                .ajax{
+                  width: 70%;
+                }
+                .postgres{
+                  width: 50%;
                 }
                 .node{
-                  width: 75%;
+                  width: 38%;
+                }
+                .jasmine{
+                  width: 43%;
+                }
+                .rest{
+                  width: 47%;
+                }
+                .redux{
+                  width: 45%;
+                }
+                .npm{
+                  width: 42%;
                 }
               .css{
                 margin-top:5px;
-                width: 80%;
-              
+                width: 35%;
               }
-              .express {  
-                width: 280px !important;
-                right: 10%;
-              }
+                      .express {  
+                        width: 235px !important;
+                        right: 5%;
+                      }
         .skill-title{
           position: relative;
           left: 7%;
@@ -1800,53 +1859,68 @@ h3{
         }
         .skills-list-desktop-1{
           margin-right: 200px;
+          position: relative;
+          bottom: 24px;
         }
         .skills-list-desktop-2{
-          margin-top: 60px;
+          margin-top: 0px;
           margin-right: 150px;
         }
         .skills-list-desktop-3{
           margin-right: 150px; 
-          margin-top: 82px;
+          margin-top: 0px;
 
         }
         .skills-list-desktop-4{
-          margin-top: 82px;
+          margin-top: 0px;
 
+        }
+        .skill-icon{
+          width: 40%;
         }
         .js{
             margin-top:5px;
-            width: 67%;
+            width: 32%;
           
         }
+       
         .react{
-          width: 48%;
+          width: 45%;
         }
         .mongodb{
-          width: 61%;
+          width: 45%;
         }
         .ajax{
-          width: 100%;
+          width: 70%;
         }
         .postgres{
-          width: 107%;
+          width: 52%;
         }
         .node{
-          width: 64%;
+          width: 38%;
+        }
+        .jasmine{
+          width: 43%;
         }
         .rest{
-          width: 64%;
+          width: 47%;
+        }
+        .redux{
+          width: 45%;
         }
         .npm{
-          width: 76%;
+          width: 42%;
         }
       .css{
         margin-top:5px;
-        width: 66%;
+        width: 35%;
       }
               .express {  
-                width: 380px !important;
-                right: 60%;
+                width: 235px !important;
+                right: 15%;
+              }
+              .skill-name{
+                font-size: 15px;
               }
         .skill-title{
           position: relative;
@@ -1975,23 +2049,52 @@ h3{
           width: 25%;
           flex-direction: column;
           padding: 0;
-          margin-top: 25px;
+          margin-top: 15px;
                 }
+                .skill-icon{
+                  width: 40%;
+                }
+                .js{
+                    margin-top:5px;
+                    width: 32%;
+                  
+                }
+               
                 .react{
-                  width: 86%;
+                  width: 45%;
+                }
+                .mongodb{
+                  width: 43%;
+                }
+                .ajax{
+                  width: 70%;
+                }
+                .postgres{
+                  width: 45%;
                 }
                 .node{
-                  width: 75%;
+                  width: 38%;
+                }
+                .jasmine{
+                  width: 43%;
+                }
+                .rest{
+                  width: 47%;
+                }
+                .redux{
+                  width: 45%;
+                }
+                .npm{
+                  width: 36%;
                 }
               .css{
                 margin-top:5px;
-                width: 80%;
-              
+                width: 35%;
               }
-              .express {  
-                width: 280px !important;
-                right: 10%;
-              }
+                      .express {  
+                        width: 235px !important;
+                        right: 5%;
+                      }
         .skill-bars {
           margin-top: 12px;
           position: relative;

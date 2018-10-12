@@ -118,16 +118,16 @@ class SkillsList extends Component {
         <p className="skill-name">CSS3</p>
         </li>
       <li>
-        <img src={require('./images/icons/mongodb.png')} className="skill-icon" alt="MongoDB" />
+        <img src={require('./images/icons/mongodb.png')} className="skill-icon mongodb" alt="MongoDB" />
         <p className="skill-name">MongoDB</p>
         </li>
       <li>
-        <img src={require('./images/icons/ajax.png')} className="skill-icon" alt="Ajax" />
+        <img src={require('./images/icons/ajax.png')} className="skill-icon ajax" alt="Ajax" />
         <p className="skill-name">Ajax</p>
         </li>
      
       <li>
-        <img src={require('./images/icons/database-postgres.png')} className="skill-icon" alt="PostgreSQL" />
+        <img src={require('./images/icons/database-postgres.png')} className="skill-icon postgres" alt="PostgreSQL" />
         <p className="skill-name">PostgreSQL</p>
         </li>
       <li>
@@ -145,7 +145,7 @@ class SkillsList extends Component {
         </li>
        
       <li>
-        <img src={require('./images/icons/npm-logo.png')} className="skill-icon" alt="NPM" />
+        <img src={require('./images/icons/npm-logo.png')} className="skill-icon npm" alt="NPM" />
         <p className="skill-name">NPM</p>
         </li>
       </ul>
@@ -214,11 +214,11 @@ class SkillsList extends Component {
         <p className="skill-name">Rest API</p>
         </li>
       <li>
-        <img src={require('./images/icons/jasmine.png')} className="skill-icon" alt="Jasmine" />
+        <img src={require('./images/icons/jasmine.png')} className="skill-icon jasmine" alt="Jasmine" />
         <p className="skill-name">Jasmine</p>
         </li>
         <li>
-        <img src={require('./images/icons/redux.svg')} className="skill-icon" alt="Redux" />
+        <img src={require('./images/icons/redux.svg')} className="skill-icon redux" alt="Redux" />
         <p className="skill-name">Redux</p>
         </li>
       <li>

@@ -1,12 +1,12 @@
 
 @font-face {
     font-family: Code Light;
-    src: url('./fonts/CODE\ Light.otf');
+    src: url('../fonts/CODE\ Light.otf');
 }
 
 @font-face {
     font-family: Code Bold;
-    src: url('./fonts/CODE\ Bold.otf');
+    src: url('../fonts/CODE\ Bold.otf');
 }
 
 
@@ -248,6 +248,8 @@ color: #34E4EA;
                 margin: 10px;
                 padding: 10px;
                 display: block;
+                font-size: 18px;
+
             }
 }
 /*  Desktop */
@@ -273,6 +275,7 @@ color: #34E4EA;
                 margin: 10px;
                 padding: 10px;
                 display: block;
+                font-size: 18px;
             }
 }
 /* iPad Pro landscape */
@@ -298,5 +301,7 @@ color: #34E4EA;
                 margin: 10px;
                 padding: 10px;
                 display: block;
+                font-size: 18px;
+
             }
 }

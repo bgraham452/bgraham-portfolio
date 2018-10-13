@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import {HashRouter as Router} from 'react-router-dom';
 
-import './header.css';
+import './styles/header.css';
 
 class Header extends Component {
 

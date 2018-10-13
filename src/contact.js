@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Form, Field, reduxForm} from 'redux-form';
-import './App.css';
+import './styles/App.css';
 
 class Contact extends Component {
 constructor(props){
@@ -11,14 +11,6 @@ constructor(props){
       message: ''
   }
 }
-
-//  onSubmit= () => {
-//   const form = document.querySelector('form')
-//   const data = new FormData(form)
-//   const req = new XMLHttpRequest()
-//   req.open(form.method, form.action)
-//   req.send(data)
-//  }
 
     render(){
 
@@ -51,8 +43,9 @@ constructor(props){
         <h3 className="follow-signature">Follow Me Here!</h3>
           <ul className="social-media-icons">
           <li><a href="mailto:bgraham452@gmail.com"><img src={require('./images/icons/email.png')} className="icon-1" alt="Email Icon" /></a></li>
-          <li><a href="https://github.com/bgraham452"><img src={require('./images/icons/github.png')} className="icon-1" alt="Github Icon" /></a></li>
-          <li><a href="https://www.behance.net/brandonleegraham"><img src={require('./images/icons/behance.png')} className="icon-2" alt="Behance Icon" /></a></li>
+          <li><a href="https://github.com/bgraham452"><img src={require('./images/icons/github.png')} className="icon-2" alt="Github Icon" /></a></li>
+          <li><a href="https://www.behance.net/brandonleegraham"><img src={require('./images/icons/behance.png')} className="icon-3" alt="Behance Icon" /></a></li>
+          <li><a href=""><img src={require('./images/icons/linkedin.png')} className="icon-4" alt="linkedin icon" /></a></li>
           <li><a href="https://twitter.com/DutchNorris_"><img src={require('./images/icons/twitter.png')} className="icon-4" alt="Twitter Icon" /></a></li>
           <li><a href="https://www.instagram.com/dutchnorris/"><img src={require('./images/icons/instagram.png')} className="icon-5" alt="Instagram Icon" /></a></li>
           </ul>

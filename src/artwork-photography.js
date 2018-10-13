@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './App.css';
+import './styles/artwork-photography.css';
 
 class ArtworkPhotography extends Component {
 

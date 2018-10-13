@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './App.css';
+import './styles/skills.css';
 import SkillBar from 'react-skillbars';
 
 class Skills extends Component {

@@ -56,10 +56,10 @@
   margin-left: 10.5px;
   }
   .artphoto-list-2 > li{
-    margin-bottom: 18px;
+    margin-bottom: 9px;
   }
   .artphoto-list-3 > li{
-    margin-bottom: 13px;
+    margin-bottom: 3.5px;
   }
   .artwork-img-1:hover .overlay{
     opacity: 1;
@@ -87,10 +87,10 @@
     margin-left: 10px;
     }
     .artphoto-list-1 > li{
-      margin-bottom: 15.1px;
+      margin-bottom: 6px;
     }
     .artphoto-list-2> li{
-      margin-bottom: 26px;
+      margin-bottom: 16.5px;
     }
 }
 /* iPhone 6/7/8 */
@@ -105,10 +105,10 @@
       margin-left: 10px;
       }
       .artphoto-list-1 > li{
-        margin-bottom: 16.1px;
+        margin-bottom: 5.9px;
       }
       .artphoto-list-2> li{
-        margin-bottom: 23px;
+        margin-bottom: 13.1px;
       }
 }
  /* iPhone X */
@@ -123,10 +123,10 @@
       margin-left: 10px;
       }
       .artphoto-list-1 > li{
-        margin-bottom: 15.2px;
+        margin-bottom: 5.9px;
       }
       .artphoto-list-2> li{
-        margin-bottom: 22.5px;
+        margin-bottom: 13.1px;
       }
  }
 
@@ -142,10 +142,10 @@
       margin-left: 11px;
       }
       .artphoto-list-1 > li{
-        margin-bottom: 17.5px;
+        margin-bottom: 5.9px;
       }
       .artphoto-list-2> li{
-        margin-bottom: 20.5px;
+        margin-bottom: 9.1px;
       }
     
 }
@@ -162,10 +162,10 @@
       margin-left: 10px;
       }
       .artphoto-list-1 > li{
-        margin-bottom: 17.5px;
+        margin-bottom: 5.9px;
       }
       .artphoto-list-2> li{
-        margin-bottom: 20.6px;
+        margin-bottom: 9.1px;
       }
 }
 /* iphone 5/SE landscape */
@@ -179,10 +179,10 @@
       margin-left: 10px;
       }
       .artphoto-list-2 > li{
-        margin-bottom: 31.5px;
+        margin-bottom: 16.5px;
       }
       .artphoto-list-3> li{
-        margin-bottom: 21.5px;
+        margin-bottom: 6.5px;
       }
 }
 /* S5 landscape */
@@ -196,10 +196,10 @@
       margin-left: 10px;
       }
       .artphoto-list-2 > li{
-        margin-bottom: 35.5px;
+        margin-bottom: 18.5px;
       }
       .artphoto-list-3> li{
-        margin-bottom: 24px;
+        margin-bottom: 6.8px;
       }
       
 }
@@ -214,10 +214,10 @@
       margin-left: 10px;
       }
       .artphoto-list-2 > li{
-        margin-bottom: 20px;
+        margin-bottom: 19.4px;
       }
       .artphoto-list-3> li{
-        margin-bottom: 23.5px;
+        margin-bottom: 6.8px;
       }
      
 }
@@ -233,10 +233,10 @@
       margin-left: 10px;
       }
       .artphoto-list-2 > li{
-        margin-bottom: 40.5px;
+        margin-bottom: 21.4px;
       }
-      .artphoto-list-3 > li{
-        margin-bottom: 27px;
+      .artphoto-list-3> li{
+        margin-bottom: 7.8px;
       }
       
          }
@@ -251,10 +251,10 @@
       margin-left: 10px;
       }
       .artphoto-list-2 > li{
-        margin-bottom: 40.5px;
+        margin-bottom: 21.4px;
       }
-      .artphoto-list-3 > li{
-        margin-bottom: 27px;
+      .artphoto-list-3> li{
+        margin-bottom: 7.8px;
       }
 }
 /* iPad */
@@ -268,10 +268,10 @@
       margin-left: 10px;
       }
       .artphoto-list-1 > li{
-        margin-bottom: 22px;
+        margin-bottom: 13px;
       }
       .artphoto-list-2> li{
-        margin-bottom: 54px;
+        margin-bottom: 45px;
       }
       .img-description{
         display: none;
@@ -296,10 +296,10 @@
           margin-left: 10px;
           }
           .artphoto-list-1 > li{
-            margin-bottom: 23.5px;
+            margin-bottom: 14.5px;
           }
           .artphoto-list-2> li{
-            margin-bottom: 57px;
+            margin-bottom: 48px;
           }
           .img-description{
             display: none;
@@ -324,10 +324,10 @@
           margin-left: 10px;
           }
           .artphoto-list-1 > li{
-            margin-bottom: 24px;
+            margin-bottom: 14.5px;
           }
           .artphoto-list-2> li{
-            margin-bottom: 58px;
+            margin-bottom: 48.5px;
           }
           .img-description{
             display: none;
@@ -351,10 +351,10 @@
       margin-left: 10px;
       }
       .artphoto-list-1 > li{
-        margin-bottom: 26px !important;
+        margin-bottom: 17px !important;
       }
       .artphoto-list-2> li{
-        margin-bottom: 69px !important;
+        margin-bottom: 60px !important;
       }
       .img-description{
         display: none;
@@ -377,10 +377,10 @@
       margin-left: 10px;
       }
       .artphoto-list-1 > li{
-        margin-bottom: 26px;
+        margin-bottom: 17px !important;
       }
       .artphoto-list-2> li{
-        margin-bottom: 69px;
+        margin-bottom: 60px !important;
       }
       .img-description{
         display: none;
@@ -403,10 +403,10 @@
       margin-left: 10px;
       }
       .artphoto-list-1 > li{
-        margin-bottom: 31px;
+        margin-bottom: 20.2px !important;
       }
       .artphoto-list-2> li{
-        margin-bottom: 85px;
+        margin-bottom: 74.5px !important;
       }
       .img-description{
         display: none;
@@ -438,10 +438,10 @@
             margin-left: 10px;
             }
             .artphoto-list-1 > li{
-              margin-bottom: 30px;
+              margin-bottom: 21px;
             }
             .artphoto-list-2> li{
-              margin-bottom: 89px;
+              margin-bottom: 79px;
             }
             .img-description{
               display: none;

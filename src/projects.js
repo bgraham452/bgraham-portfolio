@@ -58,15 +58,19 @@ This is a playlist app that generates mood music based on the weather in your ar
 <li>
   <img src={require('./images/icons/HTML5_Logo_512.png')} className="project-skill-html" alt="css" />
 </li>
+<li>
+  <img src={require('./images/icons/redux.svg')} className="project-skill-redux" alt="Redux" />
+</li>
 </ul>
         </li>
         <li>
               <h3><u className="project-title-2"><br /><br />Dream's Destination Travel App</u></h3>
-              <p className="project1-description">
+              <p className="project2-description">
               <img src={require('./images/DD-Home.png')} className="project-shot-2" alt="Dreams Destination Travel App"/>
               
-              <br />Looking for the travel destination of your dreams? This is the app for you! <br /><br /> Not only does it provide popular destinations at reasonable prices, but we put the Dreams Destinations touch on every trip. We help find events in that area and provide Dreams Destination packages complete with gifts and souvenirs so you don't forget your magical vacation!  <br /><br /> We even organize events in certain locations where you and your friends can join other travelers for drinks, partying, sightseeing, and more!  <br /><br />
-<a href="https://github.com/thinkful-ei22/BG-Dreams-Destination-React-Native" className="project2-link">View GitHub Repo</a><br />
+              <br />Looking for the travel destination of your dreams? This is the app for you! <br /><br /> Not only does it provide popular destinations at reasonable prices, but we put the Dreams Destinations touch on every trip. We help find events in that area and provide Dreams Destination packages complete with gifts and souvenirs so you don't forget your magical vacation!  <br /><br /> We even organize events in certain locations where you and your friends can join other travelers for drinks, partying, sightseeing, and more!  <br />
+<a href="https://github.com/thinkful-ei22/BG-Dreams-Destination-React-Native" className="project-links">View GitHub Repo</a><br />
+<a href="https://expo.io/@bgraham452/dreams-destination-v2" className="project-links">Visit Project Site</a><br />
 
 </p>  
 <h4 className="skill-title">Skills Used:</h4>
@@ -102,6 +106,9 @@ This app is a comprehensive list of players in the NFL ranked in order to give y
 <h4 className="skill-title">Skills Used:</h4>
 <ul className="skill-bars-3">
 <li>
+  <img src={require('./images/icons/reactv4.jpg')} className="project-skill-react" alt="Node" />
+</li>
+<li>
   <img src={require('./images/icons/node.svg')} className="project-skill-node" alt="Node" />
 </li>
 <li>
@@ -113,8 +120,6 @@ This app is a comprehensive list of players in the NFL ranked in order to give y
 <li>
   <img src={require('./images/icons/004-express-js.png')} className="project-skill-express" alt="css" />
 </li>
-
-
 </ul>
 <ul className="skill-bars-3 bottom">
 <li>
@@ -128,6 +133,9 @@ This app is a comprehensive list of players in the NFL ranked in order to give y
 </li>
 <li>
   <img src={require('./images/icons/ajax.png')} className="project-skill-ajax" alt="css" />
+</li>
+<li>
+  <img src={require('./images/icons/redux.svg')} className="project-skill-redux" alt="Redux" />
 </li>
 </ul>
         </li>

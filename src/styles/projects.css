@@ -84,7 +84,7 @@
   flex-direction: row;
   position: relative;
   top: 5px;
-  right: 9%;
+  right: 11%;
 }
 .skill-bars-3 li {
   width: 20%;
@@ -108,7 +108,7 @@
 .project-skill-express{
   width: 100px;
   position: relative;
-  right: 15%;
+  right: 30%;
   top: 4px;
   }
 
@@ -119,13 +119,13 @@
   }
   .project-skill-git{
     position: relative;
-    width: 75%;
+    width: 80%;
     top: 4px;
   }
   
   .project-skill-mongodb{
     position: relative;
-    top: 1px;
+    top: 3px;
     width: 90%;
   } 
   .project-skill-mocha{
@@ -139,8 +139,16 @@
   .project-skill-ajax{
     width: 100%;
     position: relative;
-    left: 103%;
-    top: 9px;
+    left: 90%;
+    top: 11px;
+  }
+  .project-skill-redux{
+    width: 85%;
+  }
+  .skill-bars-1 .project-skill-redux{
+    position: relative;
+    right: 30%;
+    top: 5px;
   }
   .skill-bars-1.top .project-skill-html{
     position: relative;
@@ -332,7 +340,7 @@
     left: 3%;
   }
   .skill-bars-1{
-    right: -4%;
+    right: -3%;
   }
   .skill-bars-1.top{
     right: 1%;
@@ -344,13 +352,13 @@
   }
   .skill-bars-3 {
     right: 0;
-    left: 7%;
+    left: 0%;
   }
   .skill-bars-3.bottom{
     right: 4%;
   }
    .skill-bars-1.top .project-skill-ajax{
-     left: 48%;
+     left: 20%;
    }
   .project-skill-ajax{
     left: 90%;
@@ -383,10 +391,10 @@
     left: 3%;
   }
   .skill-bars-1{
-    right: -4%;
+    right: -3%;
   }
   .skill-bars-1.top{
-    right: 1%;
+    right: 0%;
   }
  
   .skill-bars-2{
@@ -395,14 +403,14 @@
   }
   .skill-bars-3 {
     right: 0;
-    left: 7%;
+    left: 0%;
   }
   .skill-bars-3.bottom{
     right: 4%;
   }
-   .skill-bars-1.top .project-skill-ajax{
-     left: 48%;
-   }
+  .skill-bars-1.top .project-skill-ajax{
+    left: 5%;
+  }
   .project-skill-ajax{
     left: 90%;
   }
@@ -435,7 +443,7 @@
     left: 3%;
   }
   .skill-bars-1{
-    right: -4%;
+    right: -3%;
   }
   .skill-bars-1.top{
     right: 0;
@@ -448,19 +456,19 @@
   }
   .skill-bars-3 {
     right: 0;
-    left: 7%;
+    left: 0%;
   }
   .skill-bars-3.bottom{
     right: 4%;
   }
    .skill-bars-1.top .project-skill-ajax{
-     left: 15%;
+     left: 7%;
    }
   .project-skill-ajax{
-    left: 90%;
+    left: 80%;
   }
   .project-skill-express{
-    width: 140px;
+    width: 160px;
     top: 10px;
   }
   .project-skill-git{
@@ -490,11 +498,11 @@
     left: 4%;
   }
   .skill-bars-1{
-    right: -4%;
+    right: -3%;
   }
   .skill-bars-1.top{
     right: 0;
-    left: 0;
+    left: 1%;
   }
  
   .skill-bars-2{
@@ -503,20 +511,20 @@
   }
   .skill-bars-3 {
     right: 0;
-    left: 9%;
+    left: 1%;
   }
   .skill-bars-3.bottom{
     right: 4%;
   }
    .skill-bars-1.top .project-skill-ajax{
-     left: 15%;
+     left: 5%;
    }
   .project-skill-ajax{
     left: 90%;
   }
   .project-skill-express{
-    width: 140px;
-    top: 10px;
+    width: 160px;
+    top: 14px;
   }
   .project-skill-git{
     top: 14px;
@@ -545,11 +553,11 @@
     left: 5%;
   }
   .skill-bars-1{
-    right: -4%;
+    right: -5%;
   }
   .skill-bars-1.top{
     right: 0;
-    left: 1%;
+    left: 3%;
   }
  
   .skill-bars-2{
@@ -558,19 +566,19 @@
   }
   .skill-bars-3 {
     right: 0;
-    left: 10%;
+    left: 3%;
   }
   .skill-bars-3.bottom{
     right: 4%;
   }
-   .skill-bars-1.top .project-skill-ajax{
-     left: 15%;
-   }
+  .skill-bars-1.top .project-skill-ajax{
+    left: -1%;
+  }
   .project-skill-ajax{
     left: 90%;
   }
   .project-skill-express{
-    width: 140px;
+    width: 160px;
     top: 10px;
   }
   .project-skill-git{
@@ -601,7 +609,7 @@
   }
   .skill-bars-1{
     right: 0;
-    left: 4%;
+    left: 5%;
   }
   .skill-bars-1.top{
     right: 0;
@@ -614,20 +622,20 @@
   }
   .skill-bars-3 {
     right: 0;
-    left: 10%;
+    left: 3%;
   }
   .skill-bars-3.bottom{
     right: 4%;
   }
    .skill-bars-1.top .project-skill-ajax{
-     left: 15%;
+     left: 20%;
    }
   .project-skill-ajax{
     left: 90%;
   }
   .project-skill-express{
-    width: 140px;
-    top: 10px;
+    width: 190px;
+    top: 15px;
   }
   .project-skill-git{
     top: 14px;
@@ -670,7 +678,7 @@
     }
     .skill-bars-3 {
       right: 0;
-      left: 10%;
+      left: 2%;
     }
     .skill-bars-3.bottom{
       right: 4%;
@@ -682,8 +690,8 @@
       left: 90%;
     }
     .project-skill-express{
-      width: 140px;
-      top: 10px;
+      width: 190px;
+      top: 15px;
     }
     .project-skill-git{
       top: 14px;
@@ -726,7 +734,7 @@
       }
       .skill-bars-3 {
         right: 0;
-        left: 10%;
+        left: 2%;
       }
       .skill-bars-3.bottom{
         right: 4%;
@@ -738,8 +746,8 @@
         left: 90%;
       }
       .project-skill-express{
-        width: 140px;
-        top: 10px;
+        width: 190px;
+        top: 15px;
       }
       .project-skill-git{
         top: 14px;
@@ -775,7 +783,7 @@
 
   .skill-bars-1.top{
     right: 0;
-    left: 4%;
+    left: 24%;
   }
  
   .skill-bars-2{
@@ -784,10 +792,10 @@
   }
   .skill-bars-3 {
     right: 0;
-    left: 14% !important;
+    left: 19% !important;
   }
   .skill-bars-3.bottom{
-    right: 4%;
+    left: 24% !important;
   }
    .skill-bars-1.top .project-skill-ajax{
      left: 105%;
@@ -843,12 +851,12 @@
   }
   .skill-bars-3 {
     right: 0;
-    left: 23%;
+    left: 17%;
     width: 60%;
   }
   .skill-bars-3.bottom{
     right: 0;
-    left: 27%;
+    left: 22%;
   }
    .skill-bars-1.top .project-skill-ajax{
     left: 120%;
@@ -888,12 +896,12 @@
   }
   .skill-bars-1{
     right: 0;
-    left: 29%;
+    left: 28%;
     width: 55%;
   }
   .skill-bars-1.top{
     right: 0;
-    left: 25%;
+    left: 22%;
   }
  
   .skill-bars-2{
@@ -903,12 +911,12 @@
   }
   .skill-bars-3 {
     right: 0;
-    left: 29%;
+    left: 25%;
     width: 55%;
   }
   .skill-bars-3.bottom{
     right: 0;
-    left: 32%;
+    left: 28%;
   }
   .skill-bars-1.top .project-skill-ajax{
     left: 85%;
@@ -956,6 +964,10 @@
     right: 5%;
   }
   
+  .project2-description .project-links{
+    position: relative;
+    right: 0%;
+  }
   .skill-bars-1{
     right: 0;
     left: 20%;
@@ -963,7 +975,7 @@
   }
   .skill-bars-1.top{
     right: 0;
-    left: 14%;
+    left: 16%;
   }
  
   .skill-bars-2{
@@ -973,15 +985,15 @@
   }
   .skill-bars-3 {
     right: 0;
-    left: 20%;
+    left: 16%;
     width: 55%;
   }
   .skill-bars-3.bottom{
     right: 0;
-    left: 23%;
+    left: 18%;
   }
   .skill-bars-1.top .project-skill-ajax{
-    left: 85%;
+    left: 40%;
    }
   .project-skill-ajax{
     left: 90%;

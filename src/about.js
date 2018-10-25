@@ -20,9 +20,9 @@ class About extends Component {
 
 
           <ul className="about-photo-list">
-          <li><img src={require('./images/about1.jpg')} className="about-img-1" alt="1st about"/></li>
-          <li><img src={require('./images/about2.jpg')} className="about-img-2" alt="1st about"/></li>
-          <li><img src={require('./images/about3.jpg')} className="about-img-3" alt="1st about"/></li>
+          <li><img src={require('./images/about1.jpg')} className="about-img-1" alt="Collage of me posing on a rooftop"/></li>
+          <li><img src={require('./images/about2.jpg')} className="about-img-2" alt="Eric and I in Athens"/></li>
+          <li><img src={require('./images/about3.jpg')} className="about-img-3" alt="Me in fron of a flag"/></li>
           </ul>
         </div>
 

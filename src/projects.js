@@ -16,7 +16,7 @@ class Projects extends Component {
               
               Looking for the right rainy day music? Need some tunes to get you grooving in the sun? Then Weather FM is for YOU!<br /><br />
 
-This is a playlist app that generates mood music based on the weather in your area ☀️🎶⛅🎶☁️ .<br /><br /> Features include:<br /> <strong>Discover </strong> - Allows users to generate music that reflects the weather, add a song to that specific weather playlist,and tweak the discover songs by adjusting song attributes like happiness, popularity and danceability. <br /><br />
+This is a playlist app that generates mood music based on the weather in your area ☀️🎶⛅🎶☁️ .<br /> <br /> <strong>Discover </strong> - Allows users to generate music that reflects the weather, add a song to that specific weather playlist,and tweak the discover songs by adjusting song attributes like happiness, popularity and danceability. <br /><br />
 <strong>Playlists</strong> - Allows users to take songs from discover and add/delete them to/from their personal weather playlists and export their personal playlist with Spotify (Must have a Spotify account). <br /><br />
 <strong>Customization</strong> - Allow users to access all of their different weather playlists as well as use the discover feature, regardless of the current weather. By changing the current weather, users can generate rainy day playlists when its sunny outside. Similarly, if a user does not want to share their location, or wants to discover music for another weather, they can manually set the weather. <br /> <br />
 <a href="https://github.com/thinkful-ei22/WeatherFM-Client-PurpleCobras" className="project-links">View GitHub Repo</a><br />
@@ -36,10 +36,10 @@ This is a playlist app that generates mood music based on the weather in your ar
 </li>
 
 <li>
-  <img src={require('./images/icons/004-express-js.png')} className="project-skill-express" alt="css" />
+  <img src={require('./images/icons/004-express-js.png')} className="project-skill-express" alt="express" />
 </li>
 <li>
-  <img src={require('./images/icons/ajax.png')} className="project-skill-ajax" alt="css" />
+  <img src={require('./images/icons/ajax.png')} className="project-skill-ajax" alt="ajax" />
 </li>
 </ul>
 <ul className="skill-bars-1">
@@ -50,13 +50,13 @@ This is a playlist app that generates mood music based on the weather in your ar
   <img src={require('./images/icons/css.png')} className="project-skill-css" alt="css" />
 </li>
 <li>
-  <img src={require('./images/icons/mocha.png')} className="project-skill-mocha" alt="css" />
+  <img src={require('./images/icons/mocha.png')} className="project-skill-mocha" alt="mocha" />
 </li>
 <li>
-  <img src={require('./images/icons/git.png')} className="project-skill-git" alt="css" />
+  <img src={require('./images/icons/git.png')} className="project-skill-git" alt="git" />
 </li>
 <li>
-  <img src={require('./images/icons/HTML5_Logo_512.png')} className="project-skill-html" alt="css" />
+  <img src={require('./images/icons/HTML5_Logo_512.png')} className="project-skill-html" alt="html5" />
 </li>
 <li>
   <img src={require('./images/icons/redux.svg')} className="project-skill-redux" alt="Redux" />
@@ -64,13 +64,13 @@ This is a playlist app that generates mood music based on the weather in your ar
 </ul>
         </li>
         <li>
-              <h3><u className="project-title-2"><br /><br />Dream's Destination Travel App</u></h3>
+              <h3><u className="project-title-2"><br /><br />Learn Dothraki</u></h3>
               <p className="project2-description">
-              <img src={require('./images/DD-Home.png')} className="project-shot-2" alt="Dreams Destination Travel App"/>
+              <img src={require('./images/learn-dothraki.png')} className="project-shot-1" alt="Learn Dothraki Spaced Repetition App"/>
               
-              <br />Looking for the travel destination of your dreams? This is the app for you! <br /><br /> Not only does it provide popular destinations at reasonable prices, but we put the Dreams Destinations touch on every trip. We help find events in that area and provide Dreams Destination packages complete with gifts and souvenirs so you don't forget your magical vacation!  <br /><br /> We even organize events in certain locations where you and your friends can join other travelers for drinks, partying, sightseeing, and more!  <br />
-<a href="https://github.com/thinkful-ei22/BG-Dreams-Destination-React-Native" className="project-links">View GitHub Repo</a><br />
-<a href="https://expo.io/@bgraham452/dreams-destination-v2" className="project-links">Visit Project Site</a><br />
+              <br />Learn Dothraki through spaced repetition in a simple and fun way!<br /><br /> The main page displays the current word and a text input for your answer. It notifies the user whether they were correct or incorrect and displays a count of how many questions were answered correctly.  <br /><br /> The back-end allows users to register/login. It uses the spaced repetition algorithm to generate the next question, shuffling each question based on the memory score. A user can increase their memory score for a question by answering it correctly. Questions are stored in a our Mongo database. The database also stores user history. <br />
+<a href="https://github.com/thinkful-ei22/spaced-repetition-client-brandon-william-rachel" className="project-links">View GitHub Repo</a><br />
+<a href="https://learndothraki.herokuapp.com/" className="project-links">Visit Project Site</a><br />
 
 </p>  
 <h4 className="skill-title">Skills Used:</h4>
@@ -79,13 +79,19 @@ This is a playlist app that generates mood music based on the weather in your ar
   <img src={require('./images/icons/reactv4.jpg')} className="project-skill-react" alt="React" />
 </li>
 <li>
-  <img src={require('./images/icons/js.png')} className="project-skill-js" alt="javascript" />
+  <img src={require('./images/icons/redux.svg')} className="project-skill-redux" alt="redux" />
 </li>
 <li>
-  <img src={require('./images/icons/css.png')} className="project-skill-css" alt="css" />
+  <img src={require('./images/icons/node.svg')} className="project-skill-node" alt="node" />
 </li>
 <li>
   <img src={require('./images/icons/git.png')} className="project-skill-git" alt="git" />
+</li>
+<li>
+  <img src={require('./images/icons/mongodb.png')} className="project-skill-mongodb" alt="mongoDB" />
+</li>
+<li>
+  <img src={require('./images/icons/004-express-js.png')} className="project-skill-express" alt="express" />
 </li>
 </ul>
         
@@ -106,7 +112,7 @@ This app is a comprehensive list of players in the NFL ranked in order to give y
 <h4 className="skill-title">Skills Used:</h4>
 <ul className="skill-bars-3">
 <li>
-  <img src={require('./images/icons/reactv4.jpg')} className="project-skill-react" alt="Node" />
+  <img src={require('./images/icons/reactv4.jpg')} className="project-skill-react" alt="react" />
 </li>
 <li>
   <img src={require('./images/icons/node.svg')} className="project-skill-node" alt="Node" />
@@ -118,7 +124,7 @@ This app is a comprehensive list of players in the NFL ranked in order to give y
   <img src={require('./images/icons/mongodb.png')} className="project-skill-mongodb" alt="mongoDB" />
 </li>
 <li>
-  <img src={require('./images/icons/004-express-js.png')} className="project-skill-express" alt="css" />
+  <img src={require('./images/icons/004-express-js.png')} className="project-skill-express" alt="express" />
 </li>
 </ul>
 <ul className="skill-bars-3 bottom">
@@ -126,13 +132,13 @@ This app is a comprehensive list of players in the NFL ranked in order to give y
   <img src={require('./images/icons/css.png')} className="project-skill-css" alt="css" />
 </li>
 <li>
-  <img src={require('./images/icons/HTML5_Logo_512.png')} className="project-skill-html" alt="css" />
+  <img src={require('./images/icons/HTML5_Logo_512.png')} className="project-skill-html" alt="html5" />
 </li>
 <li>
-  <img src={require('./images/icons/git.png')} className="project-skill-git" alt="css" />
+  <img src={require('./images/icons/git.png')} className="project-skill-git" alt="git" />
 </li>
 <li>
-  <img src={require('./images/icons/ajax.png')} className="project-skill-ajax" alt="css" />
+  <img src={require('./images/icons/ajax.png')} className="project-skill-ajax" alt="ajax" />
 </li>
 <li>
   <img src={require('./images/icons/redux.svg')} className="project-skill-redux" alt="Redux" />

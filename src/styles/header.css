@@ -17,12 +17,15 @@
 h1{
     font-family: Code Light;
     font-size: 23px;
+    text-align: center;
 
 }
 
 a:link{
     color: #0EB1D2;
     text-decoration: none;
+    text-align: center;
+
     }
     a:visited{
         color: #34E4EA;

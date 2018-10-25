@@ -56,10 +56,10 @@
   margin-left: 10.5px;
   }
   .artphoto-list-2 > li{
-    margin-bottom: 9px;
+    margin-bottom: 8px;
   }
-  .artphoto-list-3 > li{
-    margin-bottom: 3.5px;
+  .artphoto-list-1 > li{
+    margin-bottom: 2px;
   }
   .artwork-img-1:hover .overlay{
     opacity: 1;
@@ -87,10 +87,10 @@
     margin-left: 10px;
     }
     .artphoto-list-1 > li{
-      margin-bottom: 6px;
+      margin-bottom: 2.3px;
     }
     .artphoto-list-2> li{
-      margin-bottom: 16.5px;
+      margin-bottom: 13.3px;
     }
 }
 /* iPhone 6/7/8 */
@@ -105,10 +105,10 @@
       margin-left: 10px;
       }
       .artphoto-list-1 > li{
-        margin-bottom: 5.9px;
+        margin-bottom: 2.3px;
       }
       .artphoto-list-2> li{
-        margin-bottom: 13.1px;
+        margin-bottom: 9.5px;
       }
 }
  /* iPhone X */
@@ -123,10 +123,10 @@
       margin-left: 10px;
       }
       .artphoto-list-1 > li{
-        margin-bottom: 5.9px;
+        margin-bottom: 2.3px;
       }
       .artphoto-list-2> li{
-        margin-bottom: 13.1px;
+        margin-bottom: 4.7px;
       }
  }
 
@@ -142,10 +142,10 @@
       margin-left: 11px;
       }
       .artphoto-list-1 > li{
-        margin-bottom: 5.9px;
+        margin-bottom: 2.3px;
       }
       .artphoto-list-2> li{
-        margin-bottom: 9.1px;
+        margin-bottom: 5.4px;
       }
     
 }
@@ -162,10 +162,10 @@
       margin-left: 10px;
       }
       .artphoto-list-1 > li{
-        margin-bottom: 5.9px;
+        margin-bottom: -7.8px;
       }
       .artphoto-list-2> li{
-        margin-bottom: 9.1px;
+        margin-bottom: 0.3px;
       }
 }
 /* iphone 5/SE landscape */
@@ -179,10 +179,10 @@
       margin-left: 10px;
       }
       .artphoto-list-2 > li{
-        margin-bottom: 16.5px;
+        margin-bottom: 18.8px;
       }
       .artphoto-list-3> li{
-        margin-bottom: 6.5px;
+        margin-bottom: 8.8px;
       }
 }
 /* S5 landscape */
@@ -196,10 +196,10 @@
       margin-left: 10px;
       }
       .artphoto-list-2 > li{
-        margin-bottom: 18.5px;
+        margin-bottom: 20.5px;
       }
       .artphoto-list-3> li{
-        margin-bottom: 6.8px;
+        margin-bottom: 8.8px;
       }
       
 }
@@ -214,10 +214,10 @@
       margin-left: 10px;
       }
       .artphoto-list-2 > li{
-        margin-bottom: 19.4px;
+        margin-bottom: 21.3px;
       }
       .artphoto-list-3> li{
-        margin-bottom: 6.8px;
+        margin-bottom: 8.6px;
       }
      
 }
@@ -233,10 +233,10 @@
       margin-left: 10px;
       }
       .artphoto-list-2 > li{
-        margin-bottom: 21.4px;
+        margin-bottom: 23.4px;
       }
       .artphoto-list-3> li{
-        margin-bottom: 7.8px;
+        margin-bottom: 9.7px;
       }
       
          }
@@ -251,10 +251,10 @@
       margin-left: 10px;
       }
       .artphoto-list-2 > li{
-        margin-bottom: 21.4px;
+        margin-bottom: 23.4px;
       }
       .artphoto-list-3> li{
-        margin-bottom: 7.8px;
+        margin-bottom: 9.7px;
       }
 }
 /* iPad */
@@ -268,10 +268,10 @@
       margin-left: 10px;
       }
       .artphoto-list-1 > li{
-        margin-bottom: 13px;
+        margin-bottom: 9px;
       }
       .artphoto-list-2> li{
-        margin-bottom: 45px;
+        margin-bottom: 41px;
       }
       .img-description{
         display: none;
@@ -296,10 +296,10 @@
           margin-left: 10px;
           }
           .artphoto-list-1 > li{
-            margin-bottom: 14.5px;
+            margin-bottom: 10.5px;
           }
           .artphoto-list-2> li{
-            margin-bottom: 48px;
+            margin-bottom: 44.5px;
           }
           .img-description{
             display: none;
@@ -324,10 +324,10 @@
           margin-left: 10px;
           }
           .artphoto-list-1 > li{
-            margin-bottom: 14.5px;
+            margin-bottom: 11px;
           }
           .artphoto-list-2> li{
-            margin-bottom: 48.5px;
+            margin-bottom: 45px;
           }
           .img-description{
             display: none;
@@ -351,10 +351,10 @@
       margin-left: 10px;
       }
       .artphoto-list-1 > li{
-        margin-bottom: 17px !important;
+        margin-bottom: 13px !important;
       }
       .artphoto-list-2> li{
-        margin-bottom: 60px !important;
+        margin-bottom: 56px !important;
       }
       .img-description{
         display: none;
@@ -377,10 +377,10 @@
       margin-left: 10px;
       }
       .artphoto-list-1 > li{
-        margin-bottom: 17px !important;
+        margin-bottom: 13px ;
       }
       .artphoto-list-2> li{
-        margin-bottom: 60px !important;
+        margin-bottom: 56px ;
       }
       .img-description{
         display: none;
@@ -403,10 +403,10 @@
       margin-left: 10px;
       }
       .artphoto-list-1 > li{
-        margin-bottom: 20.2px !important;
+        margin-bottom: 17.2px !important;
       }
       .artphoto-list-2> li{
-        margin-bottom: 74.5px !important;
+        margin-bottom: 71.5px !important;
       }
       .img-description{
         display: none;
@@ -438,10 +438,10 @@
             margin-left: 10px;
             }
             .artphoto-list-1 > li{
-              margin-bottom: 21px;
+              margin-bottom: 17px;
             }
             .artphoto-list-2> li{
-              margin-bottom: 79px;
+              margin-bottom: 76px;
             }
             .img-description{
               display: none;

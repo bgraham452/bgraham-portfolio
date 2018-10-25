@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
 import {HashRouter as Router} from 'react-router-dom';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import './styles/header.css';
 
@@ -13,12 +13,12 @@ class Header extends Component {
             
             <Router>
             <nav className="navbar">
-        <Link to ={{hash: "#top"}} >Home</Link> 
-        <Link to ={{hash: "#projects"}}>Projects</Link> 
-        <Link to ={{hash: "#skills"}}>Skills</Link> 
-        <Link to ={{hash: "#about"}}>About</Link>
-        <Link to ={{hash: "#artwork-photography"}}>Artwork/Photography</Link> 
-        <Link to ={{hash: "#contact"}}>Contact</Link>
+        <AnchorLink href= "#top" >Home</AnchorLink> 
+        <AnchorLink href= "#about">About</AnchorLink>
+        <AnchorLink href= "#skills">Skills</AnchorLink> 
+        <AnchorLink href="#projects">Projects</AnchorLink> 
+        <AnchorLink href="#artwork-photography">Artwork/Photography</AnchorLink> 
+        <AnchorLink href= "#contact">Contact</AnchorLink>
         </nav>
         </Router>
 

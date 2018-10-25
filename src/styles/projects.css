@@ -15,10 +15,26 @@
 .project1-description{
   position: relative;
   right: 4%;
+  text-align: justify;
 }
+
 .project2-description{
   position: relative;
   right: 4%;
+  text-align: justify;
+}
+.project3-description{
+  text-align: justify;
+
+}
+.project-links{
+  position: relative;
+  left: 36%;
+}
+.project3-description .project-links{
+ 
+    position: relative;
+    left: 33%;
 }
 .project-list{
   width:80%;
@@ -54,6 +70,7 @@
   right: 15%;
   
 }
+
 .skill-bars-1 li {
   width: 20%;
   margin-right: 5px;
@@ -64,7 +81,10 @@
   flex-direction: row;
   position: relative;
   top: 10px;
-  right: 5%;
+  right: 15%;
+}
+.skill-bars-2 .project-skill-express {
+  top: -1px;
 }
 
 .skill-bars-2 li {
@@ -163,19 +183,26 @@
     position: relative;
     left: 5%;
   }
+  #center{
+    text-align: center !important;
+  }
   /* S5 */
 @media all and (min-width: 321px) and (max-width: 360px) {
   .skill-bars-1{
     right: 10%;
   }
+  .skill-bars-2{
+    right: 13%;
+  }
   .skill-bars-3 {
     right: 8%;
   }
   .skill-bars-3.bottom{
-    right: 4%;
+    right: 7%;
   }
   .project-skill-ajax{
-    left: 90%;
+    left: 55%;
+    top: 8px;
   }
 }
 /* iPhone 6/7/8 */
@@ -197,17 +224,33 @@
     position: relative;
     right: 2%;
   }
+  .project-links{
+    position: relative;
+    left: 32%;
+  }
+  .project3-description .project-links{
+   
+      position: relative;
+      left: 30%;
+  }
   .skill-bars-1{
-    right: 8%;
+    right: 5%;
+  }
+  .skill-bars-2{
+    right:8%;
+  }
+  .skill-bars-1.top{
+    right: 11%;
   }
   .skill-bars-3 {
     right: 8%;
   }
   .skill-bars-3.bottom{
-    right: 4%;
+    right: 6%;
   }
   .project-skill-ajax{
-    left: 90%;
+    left: 50%;
+    top: 7px;
   }
 }
  /* iPhone X */
@@ -229,16 +272,16 @@
     right: 1%;
   }
   .skill-bars-1{
-    right: 8%;
+    right: 5%;
   }
   .skill-bars-3 {
     right: 8%;
   }
   .skill-bars-3.bottom{
-    right: 4%;
+    right: 5%;
   }
   .project-skill-ajax{
-    left: 90%;
+    left: 50%;
   }
  }
  /* Pixel 2 */
@@ -260,11 +303,23 @@
     position: relative;
     right: 0%;
   }
+  .project-links{
+    position: relative;
+    left: 29%;
+  }
+  .project3-description .project-links{
+   
+      position: relative;
+      left: 29%;
+  }
   .skill-bars-1{
-    right: 8%;
+    right: 4%;
   }
   .skill-bars-1.top{
-    right: 12%;
+    right: 8%;
+  }
+  .skill-bars-2{
+    right: 6%;
   }
   .skill-bars-3 {
     right: 5%;
@@ -273,7 +328,8 @@
     right: 4%;
   }
    .skill-bars-1.top .project-skill-ajax{
-     left: 48%;
+     left: 25%;
+     top: 7px;
    }
   .project-skill-ajax{
     left: 90%;
@@ -298,11 +354,23 @@
     position: relative;
     right: 0%;
   }
+  .project-links{
+    position: relative;
+    left: 29%;
+  }
+  .project3-description .project-links{
+   
+      position: relative;
+      left: 29%;
+  }
   .skill-bars-1{
-    right: 8%;
+    right: 5%;
   }
   .skill-bars-1.top{
-    right: 12%;
+    right: 9%;
+  }
+  .skill-bars-2{
+    right: 7%;
   }
   .skill-bars-3 {
     right: 5%;
@@ -311,7 +379,8 @@
     right: 4%;
   }
    .skill-bars-1.top .project-skill-ajax{
-     left: 48%;
+     left: 22%;
+     top: 7px;
    }
   .project-skill-ajax{
     left: 90%;
@@ -335,6 +404,11 @@
     position: relative;
     left: 3%;
   }
+
+  .project3-description .project-links{ 
+      position: relative;
+      left: 37%;
+  }
   .skill-title{
     position: relative;
     left: 3%;
@@ -348,7 +422,7 @@
  
   .skill-bars-2{
     right: 0;
-    left: 7%;
+    left: 0%;
   }
   .skill-bars-3 {
     right: 0;
@@ -386,6 +460,10 @@
     position: relative;
     left: 4%;
   }
+  .project3-description .project-links{ 
+    position: relative;
+    left: 36%;
+}
   .skill-title{
     position: relative;
     left: 3%;
@@ -399,7 +477,10 @@
  
   .skill-bars-2{
     right: 0;
-    left: 7%;
+    left: 2%;
+  }
+  .skill-bars-2 .project-skill-express{
+    top: 7px;
   }
   .skill-bars-3 {
     right: 0;
@@ -438,12 +519,16 @@
     position: relative;
     left: 4%;
   }
+  .project3-description .project-links{ 
+    position: relative;
+    left: 36%;
+}
   .skill-title{
     position: relative;
     left: 3%;
   }
   .skill-bars-1{
-    right: -3%;
+    right: -4%;
   }
   .skill-bars-1.top{
     right: 0;
@@ -452,7 +537,13 @@
  
   .skill-bars-2{
     right: 0;
-    left: 7%;
+    left: 2%;
+  }
+  .skill-bars-2 .project-skill-git{
+    top: 5px;
+  }
+  .skill-bars-2 .project-skill-express{
+    top: 4px;
   }
   .skill-bars-3 {
     right: 0;
@@ -493,6 +584,10 @@
     position: relative;
     left: 5%;
   }
+  .project3-description .project-links{ 
+    position: relative;
+    left: 36%;
+}
   .skill-title{
     position: relative;
     left: 4%;
@@ -507,7 +602,13 @@
  
   .skill-bars-2{
     right: 0;
-    left: 9%;
+    left: 3%;
+  }
+  .skill-bars-2 .project-skill-git{
+    top: 5px;
+  }
+  .skill-bars-2 .project-skill-express{
+    top: 4px;
   }
   .skill-bars-3 {
     right: 0;
@@ -548,6 +649,10 @@
     position: relative;
     left: 5%;
   }
+  .project3-description .project-links{ 
+    position: relative;
+    left: 36%;
+}
   .skill-title{
     position: relative;
     left: 5%;
@@ -562,7 +667,13 @@
  
   .skill-bars-2{
     right: 0;
-    left: 9%;
+    left: 4%;
+  }
+  .skill-bars-2 .project-skill-git{
+    top: 5px;
+  }
+  .skill-bars-2 .project-skill-express{
+    top: 4px;
   }
   .skill-bars-3 {
     right: 0;
@@ -603,6 +714,15 @@
     position: relative;
     left: 5%;
   }
+  .project-links{
+    position: relative;
+    left: 33%;
+  }
+  .project3-description .project-links{
+   
+      position: relative;
+      left: 32%;
+  }
   .skill-title{
     position: relative;
     left: 5%;
@@ -618,7 +738,13 @@
  
   .skill-bars-2{
     right: 0;
-    left: 9%;
+    left: 3%;
+  }
+  .skill-bars-2 .project-skill-git{
+    top: 5px;
+  }
+  .skill-bars-2 .project-skill-express{
+    top: 4px;
   }
   .skill-bars-3 {
     right: 0;
@@ -659,6 +785,10 @@
       position: relative;
       left: 5%;
     }
+    .project-links{
+      position: relative;
+      left: 33%;
+    }
     .skill-title{
       position: relative;
       left: 5%;
@@ -671,10 +801,15 @@
       right: 0;
       left: 2%;
     }
-   
     .skill-bars-2{
       right: 0;
-      left: 10%;
+      left: 3%;
+    }
+    .skill-bars-2 .project-skill-git{
+      top: 5px;
+    }
+    .skill-bars-2 .project-skill-express{
+      top: 4px;
     }
     .skill-bars-3 {
       right: 0;
@@ -715,6 +850,10 @@
         position: relative;
         left: 5%;
       }
+      .project-links{
+        position: relative;
+        left: 34%;
+      }
       .skill-title{
         position: relative;
         left: 5%;
@@ -727,10 +866,15 @@
         right: 0;
         left: 2%;
       }
-     
       .skill-bars-2{
         right: 0;
-        left: 10%;
+        left: 3%;
+      }
+      .skill-bars-2 .project-skill-git{
+        top: 5px;
+      }
+      .skill-bars-2 .project-skill-express{
+        top: 4px;
       }
       .skill-bars-3 {
         right: 0;
@@ -771,6 +915,14 @@
     position: relative;
     left: 7%;
   }
+  .project-links{
+    position: relative;
+    left: 37%;
+  }
+  .project3-description  .project-links{
+    position: relative;
+    left: 38%;
+  }
   .skill-title{
     position: relative;
     left: 7%;
@@ -788,7 +940,13 @@
  
   .skill-bars-2{
     right: 0;
-    left: 14%;
+    left: 19% !important;
+  }
+  .skill-bars-2 .project-skill-git{
+    top: 5px;
+  }
+  .skill-bars-2 .project-skill-express{
+    top: -10px;
   }
   .skill-bars-3 {
     right: 0;
@@ -830,6 +988,14 @@
     position: relative;
     left: 7%;
   }
+  .project-links{
+    position: relative;
+    left: 37%;
+  }
+  .project3-description  .project-links{
+    position: relative;
+    left: 38%;
+  }
   .skill-title{
     position: relative;
     left: 7%;
@@ -846,8 +1012,14 @@
  
   .skill-bars-2{
     right: 0;
-    left: 28%;
+    left: 19%;
     width: 60%
+  }
+  .skill-bars-2 .project-skill-git{
+    top: 5px;
+  }
+  .skill-bars-2 .project-skill-express{
+    top: -7px;
   }
   .skill-bars-3 {
     right: 0;
@@ -890,6 +1062,14 @@
     position: relative;
     left: 7%;
   }
+  .project-links{
+    position: relative;
+    left: 39%;
+  }
+  .project3-description  .project-links{
+    position: relative;
+    left: 39%;
+  }
   .skill-title{
     position: relative;
     left: 7%;
@@ -906,8 +1086,14 @@
  
   .skill-bars-2{
     right: 0;
-    left: 31%;
+    left: 23%;
     width: 55%
+  }
+  .skill-bars-2 .project-skill-git{
+    top: 5px;
+  }
+  .skill-bars-2 .project-skill-express{
+    top: -5px;
   }
   .skill-bars-3 {
     right: 0;
@@ -961,13 +1147,15 @@
   }
   .project-links{
     position: relative;
-    right: 5%;
+    left: 35%;
+  }
+
+  .project3-description  .project-links{
+    position: relative;
+    left: 35%;
   }
   
-  .project2-description .project-links{
-    position: relative;
-    right: 0%;
-  }
+
   .skill-bars-1{
     right: 0;
     left: 20%;
@@ -980,8 +1168,14 @@
  
   .skill-bars-2{
     right: 0;
-    left: 21%;
+    left: 17%;
     width: 55%
+  }
+  .skill-bars-2 .project-skill-git{
+    top: 5px;
+  }
+  .skill-bars-2 .project-skill-express{
+    top: 0px;
   }
   .skill-bars-3 {
     right: 0;

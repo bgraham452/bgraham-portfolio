@@ -17,20 +17,25 @@ h2{
 font-size: 20px;
   font-family: Code Bold;
   color: #34E4EA;
+  text-align: center;
 }
 h3{
     font-family: 'Satisfy', cursive;
 font-size: 15px;
+text-align: center;
+
 }
 h4{
   display: inline;
   font-family: 'Satisfy', cursive;
 font-size: 12px;
+text-align: center;
+
 }
 p{
   font-family: 'K2D', sans-serif;
 
-  font-size: 9px;
+  font-size: 11px;
 }
 form{
   width: 100%;
@@ -47,8 +52,8 @@ label{
 
 /* Classes */
 .App {
-  text-align: center;
   background-color: #F5EFED;
+  text-align: center;
 }
 .profile{
   width: 100%;
@@ -156,7 +161,7 @@ h3{
     font-size: 14px;
   }
   p{  
-    font-size: 11px;
+    font-size: 12px;
   }
   
 }
@@ -195,7 +200,7 @@ h3{
   }
   
   p{
-    font-size: 13px;
+    font-size: 14px;
       }
      
             .social-media-icons{
@@ -239,7 +244,7 @@ h3{
   }
   
   p{
-    font-size: 15px;
+    font-size: 16px;
       }
       
             .social-media-icons{
@@ -260,7 +265,7 @@ h3{
   }
   
   p{
-    font-size: 15px;
+    font-size: 16px;
       }
      
          
@@ -443,7 +448,7 @@ h3{
   }
   
   p{
-    font-size: 26px;
+    font-size: 24px;
       }
   p.contact-sub-text{
     position: relative;
@@ -480,7 +485,7 @@ h3{
       }
       
       p{
-        font-size: 26px;
+        font-size: 22px;
           }
           
              
@@ -520,7 +525,7 @@ h3{
   }
   
   p{
-    font-size: 26px;
+    font-size: 22px;
       }
     
          
@@ -559,7 +564,7 @@ h3{
   }
   
   p{
-    font-size: 26px;
+    font-size: 25px !important;
       }
       .profile{
         width: 100%;
@@ -608,7 +613,7 @@ h3{
   }
   
   p{
-    font-size: 26px;
+    font-size: 25px;
       }
       .profile{
         width: 100%;

@@ -7,7 +7,7 @@ class ProfileImg extends Component {
     render(){
         return (
             <div className="profile-image">
-                <img src={require('./images/photo.jpg')} className="profile" alt="profile"/>
+                <img src={require('./images/profile.jpg')} className="profile" alt="profile"/>
             </div>
         );
     }

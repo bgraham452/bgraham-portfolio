@@ -119,11 +119,13 @@ p.contact-sub-text{
   width: 100%;
   padding-right: 40px;
   margin-top: 5px;
-  margin-right: 3vw;
+  margin-right: 5vw;
+  position: relative;
+  left: 5%;
 
 }
 .social-media-icons > li {
-  width: 12vw;
+  width: 10vw;
   margin-right: 1vw;
 }
 .icon-1, .icon-2, .icon-3, .icon-4, .icon-5{
@@ -249,6 +251,7 @@ h3{
       
             .social-media-icons{
               margin-left: 5vw;
+              left: 3%;
             }
          
 }
@@ -394,7 +397,9 @@ h3{
     font-size: 25px;
   }
   .social-media-icons{
-    margin-left: 6vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    left: 7%;
   }
 }
 /* iPhone 6/7/8 Plus landscape */
@@ -463,6 +468,9 @@ h3{
   input{
     height: 25px;
   }
+  textarea{
+    height: 60px;
+  }
   .submit{
     width: 26%;
     height: 40px;
@@ -502,6 +510,9 @@ h3{
       input{
         height: 25px;
       }
+      textarea{
+        height: 60px;
+      }
       .submit{
         width: 26%;
         height: 40px;
@@ -509,6 +520,11 @@ h3{
       }
       .social-media-icons{
         margin-left: 7vw;
+        left: 15%;
+        margin-right: 19vw;
+      }
+      .social-media-icons li {
+        width: 7vw;
       }
     }
 
@@ -542,6 +558,9 @@ h3{
   input{
     height: 25px;
   }
+  textarea{
+    height: 60px;
+  }
   .submit{
     width: 26%;
     height: 40px;
@@ -549,6 +568,11 @@ h3{
   }
   .social-media-icons{
     margin-left: 7vw;
+    left: 15%;
+    margin-right: 19vw;
+  }
+  .social-media-icons li {
+    width: 7vw;
   }
 }
  /* iPad landscape */
@@ -586,7 +610,7 @@ h3{
     font-size: 20px;
   }
   input{
-    height: 25px;
+    height: 35px;
   }
   .submit{
     width: 26%;
@@ -594,7 +618,12 @@ h3{
     font-size: 15px;
   }
   .social-media-icons{
-    margin-left: 8vw;
+    margin-left: 7vw;
+    left: 15%;
+    margin-right: 19vw;
+  }
+  .social-media-icons li {
+    width: 7vw;
   }
 }
 /* iPad Pro  */
@@ -634,11 +663,14 @@ h3{
     margin-bottom: 0;
     margin-left: 33px;
   }
+  .contact-email{
+    margin-bottom: 25px;
+  }
   label{
     font-size: 20px;
   }
   input{
-    height: 25px;
+    height: 35px;
   }
   textarea{
     height: 75px;
@@ -649,7 +681,12 @@ h3{
     font-size: 15px;
   }
   .social-media-icons{
-    margin-left: 8vw;
+    margin-left: 7vw;
+    left: 15%;
+    margin-right: 19vw;
+  }
+  .social-media-icons li {
+    width: 7vw;
   }
 }
 /* Desktop */
@@ -672,7 +709,7 @@ h3{
       }
       .profile{
         width: 100%;
-        max-width: 1280px;
+        max-width: 1024px;
         margin-top: 20px;
         margin-bottom: 0;
       
@@ -685,6 +722,9 @@ h3{
     margin-left: 65px;
     margin-bottom: 15px;
   }
+  .contact-email{
+    margin-bottom: 25px;
+  }
   .contact-signature {
     margin-bottom: 0;
     margin-left: 65px;
@@ -693,10 +733,14 @@ h3{
     font-size: 20px;
   }
   input{
-    height: 25px;
+    height: 40px;
+    font-size: 20px;
+
   }
   textarea{
-    height: 75px;
+    height: 95px;
+    font-size: 20px;
+
   }
   .submit{
     width: 26%;
@@ -704,11 +748,12 @@ h3{
     font-size: 15px;
   }
   .social-media-icons{
-    margin-left: 14.5vw;
+    margin-left: 7vw;
+    left: 16.5%;
+    margin-right: 19vw;
   }
-  .social-media-icons > li
-  {
-    width: 10vw;
+  .social-media-icons li {
+    width: 7vw;
   }
 
 }
@@ -754,10 +799,13 @@ h3{
     font-size: 20px;
   }
   input{
-    height: 25px;
+    height: 40px;
+    font-size: 20px;
   }
   textarea{
-    height: 75px;
+    height: 95px;
+    font-size: 20px;
+
   }
   .submit{
     width: 26%;
@@ -765,10 +813,11 @@ h3{
     font-size: 15px;
   }
   .social-media-icons{
-    margin-left: 14.5vw;
+    margin-left: 7vw;
+    left: 16.5%;
+    margin-right: 19vw;
   }
-  .social-media-icons > li
-  {
-    width: 10vw;
+  .social-media-icons li {
+    width: 7vw;
   }
 }
